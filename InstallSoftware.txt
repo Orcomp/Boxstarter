@@ -17,6 +17,7 @@ cinst Clover
 cinst processhacker
 cinst windirstat
 cinst keepass
+cinst teamviewer
 
 # Dev tools
 cinst notepadplusplus.install
