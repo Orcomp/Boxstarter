@@ -1,0 +1,8 @@
+# Left to install manually
+# Visual Studio
+# Sql Server
+# Resharper
+# YourKit
+# Fences
+# Nitro Reader
+# Anti virus

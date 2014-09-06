@@ -1,0 +1,44 @@
+# Screenshot tool
+cinst greenshot
+
+# If we're doing web development, we need a few browsers
+cinst GoogleChrome
+cinst Firefox
+
+# Don't quite know why this is important, but I'll install silverlight and java runtime anyways
+cinst Silverlight
+cinst javaruntime
+
+# General
+cinst vlc
+cinst f.lux
+cinst TeraCopy
+cinst Clover
+cinst processhacker
+cinst windirstat
+cinst keepass
+
+# Dev tools
+cinst notepadplusplus.install
+cinst mysql.workbench
+cinst InnoSetup
+cinst notepad2-mod
+cinst linqpad4
+cinst 7zip
+
+# Without Git, we might as well go home.
+cinst poshgit
+cinst git-credential-winstore -Version 1.2.0.0
+cinst gitextensions
+
+# Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
+$env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin"
+
+# Markdown is how documentation becomes awesomenes
+# Unfortunately I'm installing this at the end because it doesn't seem to work unattended... it requires the user to press "ok"
+# cinst MarkdownPad2 -installargs "/exelang 1033"
+
+# Sql Server
+# cinst SqlServer2012Express
+
+Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
