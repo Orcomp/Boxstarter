@@ -6,3 +6,9 @@
 # Fences
 # Nitro Reader
 # Anti virus
+
+# Once VS is installed
+cinst resharper
+cinst NugetPackageManager
+cinst IndentGuides
+# cinst CodeConstractTools
