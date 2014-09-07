@@ -22,7 +22,7 @@ cinst windirstat
 cinst keepass
 cinst teamviewer
 cinst FoxitReader
-cisnt kdiff3
+cinst kdiff3
 
 # Dev tools
 #===========
