@@ -1,14 +1,43 @@
-# Left to install manually
+# No Reboot
+# http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/Orcomp/Boxstarter/master/PostInstall.txt
+
+# Install manually
+#==================
+
 # Visual Studio
-# Sql Server
-# Resharper
-# YourKit
-# Fences
-# Nitro Reader
-# Anti virus
+
+## NOTE: VS will also install Sql Server
+
+
 
 # Once VS is installed
+#=====================
+
 cinst resharper
-cinst NugetPackageManager
 cinst IndentGuides
-# cinst CodeConstractTools
+cinst ccleaner
+cinst speccy
+cinst sumo
+
+# Install manually
+#==================
+
+# YourKit
+# Fences
+# Folders popup
+# Nitro Reader
+# Anti virus
+# VS CodeConstractTools
+# KCleaner ?
+# TPX
+
+# Packages that do not want to install. 07/09/2014
+#===================================================
+
+# cinst NugetPackageManager
+
+
+# Others
+#========
+
+# cinst imgburn

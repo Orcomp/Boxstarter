@@ -1,15 +1,18 @@
-# Screenshot tool
-cinst greenshot
+# No Reboot
+# http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/Orcomp/Boxstarter/master/InstallSoftware.txt
 
-# If we're doing web development, we need a few browsers
-cinst GoogleChrome
-cinst Firefox
+# Runtimes
+#==========
 
-# Don't quite know why this is important, but I'll install silverlight and java runtime anyways
 cinst Silverlight
 cinst javaruntime
 
 # General
+#=========
+
+cinst GoogleChrome
+cinst Firefox
+cinst greenshot
 cinst vlc
 cinst f.lux
 cinst TeraCopy
@@ -18,16 +21,26 @@ cinst processhacker
 cinst windirstat
 cinst keepass
 cinst teamviewer
+cinst FoxitReader
+cisnt kdiff3
 
 # Dev tools
+#===========
 cinst notepadplusplus.install
 cinst mysql.workbench
 cinst InnoSetup
+
+# Set notepad2 as the default notepad editor.
 cinst notepad2-mod
 cinst linqpad4
 cinst 7zip
+cinst Wix35
+cinst dotpeek
+cinst LightTable
 
-# Without Git, we might as well go home.
+# Set conemu as the default cmd.exe. http://superuser.com/questions/509642/how-to-change-the-default-terminal-emulator-on-windows-cmd/509710#509710
+cinst conemu
+
 cinst poshgit
 cinst git-credential-winstore -Version 1.2.0.0
 cinst gitextensions
@@ -35,11 +48,12 @@ cinst gitextensions
 # Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
 $env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin"
 
-# Markdown is how documentation becomes awesomenes
-# Unfortunately I'm installing this at the end because it doesn't seem to work unattended... it requires the user to press "ok"
-# cinst MarkdownPad2 -installargs "/exelang 1033"
+cinst MarkdownPad2
 
 # Sql Server
 # cinst SqlServer2012Express
+
+# Tweaks
+#========
 
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"

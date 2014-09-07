@@ -1,14 +1,18 @@
-# http://boxstarter.org/package/url?
- 
-#region Initial Windows Config
- 
+# Reboot allowed
+# http://boxstarter.org/package/url?https://raw.githubusercontent.com/Orcomp/Boxstarter/master/UpdateWindows.txt
+
+# Initial Windows Config
+#========================
+
 Install-WindowsUpdate -AcceptEula
 Update-ExecutionPolicy Unrestricted
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
 Enable-RemoteDesktop
- 
-# Let's get the latest version of powershell and .net frameworks
+
+# Update runtimes
+#=================
+
 cinst PowerShell
 cinst DotNet4.0
 cinst DotNet4.5
