@@ -1,16 +1,13 @@
 Boxstarter scripts to setup a dev environment on a new windows box.
 
-## Goal:
-
-- Keep it lean
-- Keep it simple
 
 There is a two step process, some large installs like VS, SQL server etc.. are done manually.
 
+You can run the scripts multiple times. If a program is already installed it will just be skipped.
 
 ## Introduction
 
-- The boxstarter list only containts software I use regularly. Nothing more.
+- The boxstarter list only contains software I use regularly.
 - The boxstarter links to use in IE are found at the top of each file.
 - The order in which the files should be run are:
     1. UpdateWindows.txt (Run this just after installing windows.)
@@ -22,7 +19,7 @@ Most of the programs are available for free.
     
 ## Steps
 
-After running the scripts mentiond above run the following programs
+After running the scripts mentioned above run the following programs
 
 1. [Simple System Tweaker](http://www.tweaking.com/content/page/simple_system_tweaker.html) or download and install [Ultimate Windows Tweaker](http://www.thewindowsclub.com/ultimate-windows-tweaker-3-windows-8)
 
