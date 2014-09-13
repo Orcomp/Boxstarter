@@ -29,6 +29,11 @@ cinst virtualbox
 cinst VirtualBox.ExtensionPack
 cinst googledrive
 cinst Devbox-RapidEE
+cinst ccleaner
+cinst kcleaner
+cinst speccy
+cinst sumo
+cinst dumo
 
 # http://www.tweaking.com/content/page/simple_system_tweaker.html
 cinst simplesystemtweaker
@@ -67,7 +72,6 @@ cinst MarkdownPad2
 #========
 
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
-
 
 # Drivers
 #==========
