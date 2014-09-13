@@ -14,5 +14,8 @@ Enable-RemoteDesktop
 #=================
 
 cinst PowerShell
-cinst DotNet4.0
-cinst DotNet4.5
+
+# Don't need to update .NET as we will be installing visual studio,
+# which will do that automatically.
+# cinst DotNet4.0
+# cinst DotNet4.5

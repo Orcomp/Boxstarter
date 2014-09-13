@@ -1,9 +1,11 @@
+
 # No Reboot
 # http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/Orcomp/Boxstarter/master/InstallSoftware.txt
 
 # Runtimes
 #==========
 
+cinst Silverlight5DeveloperRuntime
 cinst Silverlight
 cinst javaruntime
 
@@ -23,6 +25,13 @@ cinst keepass
 cinst teamviewer
 cinst FoxitReader
 cinst kdiff3
+cinst virtualbox
+cinst VirtualBox.ExtensionPack
+cinst googledrive
+cinst Devbox-RapidEE
+
+# http://www.tweaking.com/content/page/simple_system_tweaker.html
+cinst simplesystemtweaker
 
 # Dev tools
 #===========
@@ -36,7 +45,8 @@ cinst linqpad4
 cinst 7zip
 cinst Wix35
 cinst dotpeek
-cinst LightTable
+cinst vim
+cinst stylecop
 
 # Set conemu as the default cmd.exe. http://superuser.com/questions/509642/how-to-change-the-default-terminal-emulator-on-windows-cmd/509710#509710
 cinst conemu
@@ -57,3 +67,9 @@ cinst MarkdownPad2
 #========
 
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
+
+
+# Drivers
+#==========
+
+# http://www.intel.com/p/en_US/support/detect
