@@ -4,7 +4,10 @@
 # Install manually
 #==================
 
+# Install these products seperately since they are large downloads.
+
 # Visual Studio
+# Microsoft Office
 
 ## NOTE: VS will also install Sql Server
 
@@ -16,24 +19,34 @@ cinst resharper
 cinst IndentGuides
 cinst IHateRegions
 
+cinst linqpad4
+cinst stylecop
+cinst Wix35
+cinst dotpeek
+
+cinst poshgit
+cinst git-credential-winstore -Version 1.2.0.0
+cinst gitextensions
+
 # Install manually
 #==================
 
 # YourKit
 # Fences
 # Folders popup
-# Nitro Reader
-# Anti virus
 # VS CodeConstractTools
 # TPX
 
-# Packages that do not want to install. 07/09/2014
-#===================================================
-
-# cinst NugetPackageManager
-
+# See Readme.md for chrome extensions.
 
 # Others
 #========
 
 # cinst imgburn
+
+# Drivers
+#==========
+
+# http://www.intel.com/p/en_US/support/detect
+
+# NOTE: Run windows update again
