@@ -27,16 +27,9 @@ Most of the programs are available for free.
 - Desktop Info (install and configure.) Add to startup
 - Add computer to desktop
  
-Install Chrome extensions:
+Install Chrome Extensions and Chrome Apps:
  
-- [Session Buddy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko)
-- [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
-- [Markdown Here](http://markdown-here.com/)
- 
-Chrome Apps:
- 
-- [PlantUML viewer](https://chrome.google.com/webstore/detail/plantuml-viewer/legbfeljfbjgfifnkmpoajgpgejojooj)
-- [GitHub.Expandinizr](https://github.com/thecodejunkie/github.expandinizr)
+Check the "Chrome Extensions"  and "Chrome Apps" sections [here](http://orcomp.github.io/Blog/useful/2014/04/20/Useful-Tools.html).
  
 Files and Folder:
  

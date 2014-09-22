@@ -34,6 +34,7 @@ cinst gitextensions
 # YourKit
 # Fences
 # Folders popup
+# FoxitReader (Does not seem to install properly with chocolatey)
 # VS CodeConstractTools
 # TPX
 
