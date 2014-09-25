@@ -24,9 +24,10 @@ cinst stylecop
 cinst Wix35
 cinst dotpeek
 
+# The order of installing this is important
 cinst poshgit
-cinst git-credential-winstore -Version 1.2.0.0
 cinst gitextensions
+cinst git-credential-winstore -Version 1.2.0.0
 
 # Install manually
 #==================
