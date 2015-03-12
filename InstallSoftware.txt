@@ -11,7 +11,7 @@ cinst javaruntime
 # General
 #=========
 
-cinst GoogleChrome
+cinst google-chrome-x64
 cinst Firefox
 cinst greenshot
 cinst vlc
@@ -44,7 +44,7 @@ cinst InnoSetup
 # Set notepad2 as the default notepad editor.
 cinst notepad2-mod
 cinst 7zip
-cinst vim
+# cinst vim
 
 # Set conemu as the default cmd.exe. http://superuser.com/questions/509642/how-to-change-the-default-terminal-emulator-on-windows-cmd/509710#509710
 cinst conemu
@@ -52,7 +52,7 @@ cinst conemu
 # Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
 $env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin"
 
-cinst MarkdownPad2
+# cinst MarkdownPad2
 
 # Sql Server. Will get installed with VS
 # cinst SqlServer2012Express
