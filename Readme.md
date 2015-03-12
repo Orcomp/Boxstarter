@@ -9,7 +9,9 @@ You can run the scripts multiple times. If a program is already installed it wil
 - The boxstarter list only contains software I use regularly.
 - The boxstarter links to use in IE are found at the top of each file.
 - The order in which the files should be run are:
+    1. Update BIOS (for new installs)
     1. **UpdateWindows.txt** (Run this just after installing windows.)
+    1. Install drivers (for new installs)
     1. **InstallSotware.txt**
     1. Install VS and Office seperately
     1. **PostInstall.txt**
@@ -19,11 +21,6 @@ You can run the scripts multiple times. If a program is already installed it wil
     
 **NOTE:** Whenever you need a program check [Chocolatey](http://chocolatey.org/) first. It is the best place to discover the most used programs by developers for any category.
 Most of the programs are available for free.
-
-## Steps
-
-After installing windows:
-- Update the BIOS immediately
 
 ## Configuration
 
