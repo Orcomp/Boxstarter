@@ -20,6 +20,11 @@ You can run the scripts multiple times. If a program is already installed it wil
 **NOTE:** Whenever you need a program check [Chocolatey](http://chocolatey.org/) first. It is the best place to discover the most used programs by developers for any category.
 Most of the programs are available for free.
 
+## Steps
+
+After installing windows:
+- Update the BIOS immediately
+
 ## Configuration
 
 - Make Notepad2-mod the default text editor
