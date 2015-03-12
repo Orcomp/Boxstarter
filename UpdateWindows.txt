@@ -1,13 +1,14 @@
 # Reboot allowed
 # http://boxstarter.org/package/url?https://raw.githubusercontent.com/Orcomp/Boxstarter/master/UpdateWindows.txt
 
-# Initial Windows Config
+# Initial Windows Config (http://boxstarter.org/WinConfig)
 #========================
 
 Install-WindowsUpdate -AcceptEula
 Update-ExecutionPolicy Unrestricted
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
-Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
+Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirs
+Set-TaskbarOptions -Size Small -Lock -Dock Left
 Enable-RemoteDesktop
 
 # Update runtimes
