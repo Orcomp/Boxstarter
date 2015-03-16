@@ -31,6 +31,7 @@ cinst ccleaner
 cinst kcleaner
 cinst speccy
 cinst autoruns
+cinst skype
 
 # http://www.tweaking.com/content/page/simple_system_tweaker.html
 cinst simplesystemtweaker
