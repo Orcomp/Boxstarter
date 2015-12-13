@@ -14,7 +14,7 @@
 # Once VS is installed
 #=====================
 
-cinst resharper
+# cinst resharper # Install manually
 cinst IndentGuides
 cinst IHateRegions
 cinst vscoloroutput
@@ -22,7 +22,7 @@ cinst vscoloroutput
 cinst linqpad4
 cinst stylecop
 # cinst Wix35
-cinst dotpeek
+# cinst dotpeek # Install manually
 
 # The order of installing this is important
 cinst poshgit
