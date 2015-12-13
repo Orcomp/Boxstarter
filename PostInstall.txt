@@ -11,7 +11,6 @@
 
 ## NOTE: VS will also install Sql Server
 
-
 # Once VS is installed
 #=====================
 
@@ -21,7 +20,7 @@ cinst IHateRegions
 
 cinst linqpad4
 cinst stylecop
-cinst Wix35
+# cinst Wix35
 cinst dotpeek
 
 # The order of installing this is important
@@ -37,6 +36,8 @@ cinst git-credential-winstore -Version 1.2.0.0
 # Folders popup
 # FoxitReader (Does not seem to install properly with chocolatey)
 # VS CodeConstractTools
+# VS Code
+# Skype
 # TPX
 
 # See Readme.md for chrome extensions.
