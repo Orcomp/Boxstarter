@@ -31,7 +31,7 @@ Most of the programs are available for free.
  
 Install Chrome Extensions and Chrome Apps:
  
-Check the "Chrome Extensions"  and "Chrome Apps" sections [here](http://orcomp.github.io/Blog/useful/2014/04/20/Useful-Tools.html).
+Check the "Chrome Extensions"  and "Chrome Apps" sections [here](http://orcomp.github.io/Blog/#docs/list_of_useful_software).
  
 Files and Folder:
  
@@ -65,6 +65,6 @@ This actually makes sense since Windows requires a lot more resources than Linux
 
 ## Official Software List
 
-- I keep this list up to date: http://orcomp.github.io/Blog/useful/2014/04/20/Useful-Tools.html
+- I keep this list up to date: http://orcomp.github.io/Blog/#docs/list_of_useful_software
  
  
