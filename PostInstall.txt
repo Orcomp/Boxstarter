@@ -34,8 +34,6 @@ cinst git-credential-winstore -Version 1.2.0.0
 
 # YourKit
 # Fences
-# Folders popup
-# FoxitReader (Does not seem to install properly with chocolatey)
 # VS CodeConstractTools
 # VS Code
 # Skype
