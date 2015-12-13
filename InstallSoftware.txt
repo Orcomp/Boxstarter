@@ -28,7 +28,7 @@ cinst slack
 # cinst VirtualBox.ExtensionPack
 cinst googledrive
 cinst dropbox
-cinst Devbox-RapidEE
+# cinst Devbox-RapidEE # Did not install 2015/12/13
 cinst ccleaner
 cinst kcleaner
 # cinst speccy
