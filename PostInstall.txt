@@ -17,6 +17,7 @@
 cinst resharper
 cinst IndentGuides
 cinst IHateRegions
+cinst vscoloroutput
 
 cinst linqpad4
 cinst stylecop
