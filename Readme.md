@@ -18,6 +18,7 @@ You can run the scripts multiple times. If a program is already installed it wil
         - Office (large download)
         - Skype (Chocolatey does not handle Skype well)
         - VS Code (They recommend not to use chocolatey)
+        - Fences
     1. **PostInstall.txt**
     1. **UpdateWindows.txt** (Run windows update again.)
     1. Run CCleaneer and KCleaner to get rid of all the junk. (These are installed in the scripts above)
