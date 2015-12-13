@@ -13,7 +13,11 @@ You can run the scripts multiple times. If a program is already installed it wil
     1. **UpdateWindows.txt** (Run this just after installing windows.)
     1. Install drivers (for new installs)
     1. **InstallSotware.txt**
-    1. Install VS and Office seperately
+    1. Install seperately:
+        - VS (large download)
+        - Office (large download)
+        - Skype (Chocolatey does not handle Skype well)
+        - VS Code (They recommend not to use chocolatey)
     1. **PostInstall.txt**
     1. **UpdateWindows.txt** (Run windows update again.)
     1. Run CCleaneer and KCleaner to get rid of all the junk. (These are installed in the scripts above)
