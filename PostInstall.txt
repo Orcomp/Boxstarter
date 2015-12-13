@@ -27,7 +27,9 @@ cinst stylecop
 # The order of installing this is important
 cinst poshgit
 cinst gitextensions
+
 # cinst git-credential-winstore -Version 1.2.0.0 # Did not install properly
+# Use this instead: https://github.com/Microsoft/Git-Credential-Manager-for-Windows/
 
 # Install manually
 #==================
