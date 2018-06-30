@@ -4,12 +4,22 @@
 # Initial Windows Config (http://boxstarter.org/WinConfig)
 #========================
 
+Enable-MicrosoftUpdate
 Install-WindowsUpdate -AcceptEula
 Update-ExecutionPolicy Unrestricted
+
+Disable-InternetExplorerESC
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
-Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirs
-Set-TaskbarOptions -Size Small -Lock -Dock Left
+
+Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
+
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions -EnableShowFullPathInTitleBar -EnableOpenFileExplorerToQuickAccess -EnableShowRecentFilesInQuickAccess -EnableShowFrequentFoldersInQuickAccess -EnableExpandToOpenFolder -EnableShowRibbon
+
+Set-TaskbarOptions -Size Small -Lock -Dock Bottom
+
 Enable-RemoteDesktop
+
+Disable-BingSearch
 
 # Update runtimes
 #=================
