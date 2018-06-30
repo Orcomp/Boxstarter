@@ -23,15 +23,17 @@ cinst keepass
 cinst teamviewer
 cinst FoxitReader
 cinst kdiff3
-cinst virtualbox
-cinst VirtualBox.ExtensionPack
+cinst slack
+# cinst virtualbox
+# cinst VirtualBox.ExtensionPack
 cinst googledrive
-cinst Devbox-RapidEE
+cinst dropbox
+# cinst Devbox-RapidEE # Did not install 2015/12/13
 cinst ccleaner
 cinst kcleaner
-cinst speccy
+# cinst speccy
 cinst autoruns
-cinst skype
+# cinst skype # Install skype afterwards
 cinst paint.net
 
 # http://www.tweaking.com/content/page/simple_system_tweaker.html
@@ -53,8 +55,6 @@ cinst conemu
 
 # Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
 $env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin"
-
-# cinst MarkdownPad2
 
 # Sql Server. Will get installed with VS
 # cinst SqlServer2012Express

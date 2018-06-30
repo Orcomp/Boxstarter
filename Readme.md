@@ -28,6 +28,9 @@ Most of the programs are available for free.
 
 - Make Notepad2-mod the default text editor
 
+
+
+
 Install Chrome Extensions and Chrome Apps:
 
 Check the "Chrome Extensions"  and "Chrome Apps" sections [here](http://orcomp.github.io/Blog/#docs/list_of_useful_software).
@@ -52,8 +55,11 @@ Unfortunately the VM is not fast enough on my laptop so I went the other way. In
 
 This actually makes sense since Windows requires a lot more resources than Linux. Manjaro with VBox actually runs very fast and does not use a lot of resources.
 
+
+
 - Notepad2-mod can be set to replace notepad. http://www.flos-freeware.ch/doc/notepad2-Replacement.html
   Notepad2-mod is a very capable editor, and opens up files really fast.
+
 
 ## Paid software
 
@@ -64,4 +70,7 @@ I generally try and use free or open source software as much as possible. So whe
 
 ## Official Software List
 
+
 - I keep this list up to date: http://orcomp.github.io/Blog/#docs/list_of_useful_software
+
+
