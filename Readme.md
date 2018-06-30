@@ -14,7 +14,7 @@ You can run the scripts multiple times. If a program is already installed it wil
     1. Update BIOS (for new installs)
     1. **UpdateWindows.txt** (Run this just after installing windows.)
     1. Install drivers (for new installs)
-    1. **InstallSotware.txt**
+    1. **InstallSoftware.txt**
     1. Install large programs (VS, Office etc...) separately
     1. **PostInstall.txt**
     1. **UpdateWindows.txt** (Run windows update again.)
@@ -26,19 +26,12 @@ Most of the programs are available for free.
 
 ## Configuration
 
-- Make Notepad2-mod the default text editor
+- Make Notepad2-mod the default text editor: http://www.flos-freeware.ch/doc/notepad2-Replacement.html
+- Install Chrome Extensions and Chrome Apps: Check the "Chrome Extensions"  and "Chrome Apps" sections [here](http://orcomp.github.io/Blog/#docs/list_of_useful_software).
+- Files and Folder:
 
-
-
-
-Install Chrome Extensions and Chrome Apps:
-
-Check the "Chrome Extensions"  and "Chrome Apps" sections [here](http://orcomp.github.io/Blog/#docs/list_of_useful_software).
-
-Files and Folder:
-
-- [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
-- [Application Launcher](http://www.howtogeek.com/howto/11166/use-quick-launch-as-a-super-powered-application-launcher/)
+  - [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
+  - [Application Launcher](http://www.howtogeek.com/howto/11166/use-quick-launch-as-a-super-powered-application-launcher/)
 
 ### Antivirus
 
@@ -47,19 +40,6 @@ The default anti virus that comes with Windows is good enough if you surf the we
 ### Partitions
 
 Since the OS will be going on a SSD drive no need to partition.
-
-## Notes
-
-I started this Boxstarter project to run windows in VirtualBox with a linux host ([Manjaro](http://manjaro.org/)).
-Unfortunately the VM is not fast enough on my laptop so I went the other way. Installed windows 8.1 as the host and Manjaro as guest.
-
-This actually makes sense since Windows requires a lot more resources than Linux. Manjaro with VBox actually runs very fast and does not use a lot of resources.
-
-
-
-- Notepad2-mod can be set to replace notepad. http://www.flos-freeware.ch/doc/notepad2-Replacement.html
-  Notepad2-mod is a very capable editor, and opens up files really fast.
-
 
 ## Paid software
 
@@ -70,7 +50,4 @@ I generally try and use free or open source software as much as possible. So whe
 
 ## Official Software List
 
-
 - I keep this list up to date: http://orcomp.github.io/Blog/#docs/list_of_useful_software
-
-
