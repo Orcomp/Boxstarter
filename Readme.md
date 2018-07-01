@@ -15,7 +15,10 @@ You can run the scripts multiple times. If a program is already installed it wil
     1. **UpdateWindows.txt** (Run this just after installing windows.)
     1. Install drivers (for new installs)
     1. **InstallSoftware.txt**
-    1. Install large programs (VS, Office etc...) separately
+    1. Manual Installs
+      - VS
+      - Office
+      - Git: Just install 
     1. **PostInstall.txt**
     1. **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
@@ -25,7 +28,7 @@ You can run the scripts multiple times. If a program is already installed it wil
 
 Most of the programs are available for free.
 
-## Configuration
+## Post Install - Configurations
 
 - Make Notepad2-mod the default text editor: http://www.flos-freeware.ch/doc/notepad2-Replacement.html
 - Files and Folder:

@@ -4,7 +4,7 @@
 # Install manually
 #==================
 
-# Install these products seperately since they are large downloads.
+# Install these products separately since they are large downloads.
 
 # Visual Studio
 # Microsoft Office
@@ -15,12 +15,12 @@
 #=====================
 
 # cinst resharper # Install manually
-cinst IndentGuides
-cinst IHateRegions
-cinst vscoloroutput
+# cinst IndentGuides
+# cinst IHateRegions
+# cinst vscoloroutput
 
-cinst linqpad4
-cinst stylecop
+# cinst linqpad4
+# cinst stylecop
 # cinst Wix35
 # cinst dotpeek # Install manually
 

@@ -5,59 +5,50 @@
 # Runtimes
 #==========
 
-cinst Silverlight
-cinst javaruntime
-
 # General
 #=========
 
-cinst google-chrome-x64
-cinst Firefox
+cinst googlechrome
+cinst firefox
 cinst greenshot
 cinst vlc
 cinst f.lux
-cinst Clover
-cinst processhacker
-cinst windirstat
-cinst keepass
-cinst teamviewer
+cinst keepass.install
 cinst FoxitReader
 cinst kdiff3
-cinst slack
-# cinst virtualbox
-# cinst VirtualBox.ExtensionPack
-cinst googledrive
 cinst dropbox
-# cinst Devbox-RapidEE # Did not install 2015/12/13
-cinst ccleaner
-cinst kcleaner
-# cinst speccy
-cinst autoruns
-# cinst skype # Install skype afterwards
+cinst skype
 cinst paint.net
+cinst filezilla
+cinst zoom
+
+cinst microsoft-teams
+cinst treesizefree
 
 # http://www.tweaking.com/content/page/simple_system_tweaker.html
 cinst simplesystemtweaker
 
 # Dev tools
 #===========
+
+cinst git.install
+
+cinst vscode
+cinst vscode-csharp
+cinst vscode-powershell
+cinst vscode-icons
+cinst vscode-gitlens
+cinst vscode-codespellchecker
+cinst vscode-markdownlint
+
 cinst notepadplusplus.install
-cinst mysql.workbench
-cinst InnoSetup
 
 # Set notepad2 as the default notepad editor.
 cinst notepad2-mod
-cinst 7zip
-# cinst vim
-
-# Set conemu as the default cmd.exe. http://superuser.com/questions/509642/how-to-change-the-default-terminal-emulator-on-windows-cmd/509710#509710
-cinst conemu
+cinst 7zip.install
 
 # Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
 $env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin"
-
-# Sql Server. Will get installed with VS
-# cinst SqlServer2012Express
 
 # Tweaks
 #========
