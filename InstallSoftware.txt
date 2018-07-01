@@ -28,9 +28,13 @@ cinst treesizefree
 # http://www.tweaking.com/content/page/simple_system_tweaker.html
 cinst simplesystemtweaker
 
+cinst itunes
+
 # Dev tools
 #===========
 
+# Git will install credentials manager as well
+# https://github.com/Microsoft/Git-Credential-Manager-for-Windows/
 cinst git.install
 
 cinst vscode
@@ -53,5 +57,5 @@ $env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin"
 # Tweaks
 #========
 
-Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
+Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles)\Google\Chrome\Application\chrome.exe"
 

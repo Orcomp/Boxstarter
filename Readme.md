@@ -16,9 +16,12 @@ You can run the scripts multiple times. If a program is already installed it wil
     1. Install drivers (for new installs)
     1. **InstallSoftware.txt**
     1. Manual Installs
-      - VS
-      - Office
-      - Git: Just install 
+      - [VisualStudio](https://visualstudio.microsoft.com/downloads/)
+      - Office (Through office365)
+      - [Git Credentials manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/)
+      - [OneDrive](https://onedrive.live.com/about/en-au/download/)
+      - [Fences](https://www.stardock.com/products/fences/)
+      - [Fork](https://git-fork.com/) (git client)
     1. **PostInstall.txt**
     1. **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
@@ -57,7 +60,20 @@ I generally try and use free or open source software as much as possible. So whe
 
 - [Directory Opus](https://www.gpsoft.com.au/)
 - [bvckup2](https://bvckup2.com/)
+- Fences
 
-## Official Software List
+## Notes
 
-- I keep this list up to date: http://orcomp.github.io/Blog/#docs/list_of_useful_software
+- Official Software List: I keep this list up to date: http://orcomp.github.io/Blog/#docs/list_of_useful_software
+- Markdown: Use VSCode with some markdown extensions
+
+- VSCode extensions: https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list
+- Visual Studio extensions: https://stackoverflow.com/questions/22154485/getting-a-list-of-installed-extensions-and-packages-in-visual-studio-2013
+- Chrome Extensions: type in "chrome://system" then click on the expand extensions button
+
+## Keep an eye on
+
+- https://www.duplicati.com/
+- https://keeweb.info/
+- https://github.com/icsharpcode/ILSpy
+- https://sourceforge.net/projects/freefilesync/

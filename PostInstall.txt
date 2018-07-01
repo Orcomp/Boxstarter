@@ -28,8 +28,7 @@
 cinst poshgit
 cinst gitextensions
 
-# cinst git-credential-winstore -Version 1.2.0.0 # Did not install properly
-# Use this instead: https://github.com/Microsoft/Git-Credential-Manager-for-Windows/
+cinst codetrack
 
 # Install manually
 #==================
@@ -37,8 +36,6 @@ cinst gitextensions
 # YourKit
 # Fences
 # VS CodeConstractTools
-# VS Code
-# Skype
 # TPX
 
 # See Readme.md for chrome extensions.
