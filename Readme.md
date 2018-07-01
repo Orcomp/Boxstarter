@@ -24,7 +24,7 @@ You can run the scripts multiple times. If a program is already installed it wil
       - [Fork](https://git-fork.com/) (git client)
       - [Directory Opus](https://www.gpsoft.com.au/)
       - [bvckup2](https://bvckup2.com/)
-      - [Kindle]()
+      - [Kindle](https://www.amazon.com/kindle-dbs/fd/kcp)
     1. **PostInstall.txt**
     1. **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
@@ -37,6 +37,7 @@ Most of the programs are available for free.
 ## Post Install - Configurations
 
 - Make Notepad2-mod the default text editor: http://www.flos-freeware.ch/doc/notepad2-Replacement.html
+  (This will happen automatically after running the Boxstarter scripts)
 - Files and Folder:
 
   - [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
@@ -85,3 +86,19 @@ I generally try and use free or open source software as much as possible. So whe
 - [UltraSearch](https://www.jam-software.com/ultrasearch/)
 - [FreeFileSync](https://freefilesync.org/)
 - [AllDup](http://www.alldup.de/alldup_help/alldup.php)
+- [SqliteBrowser](http://sqlitebrowser.org/)
+
+## Guides
+
+### Re-install XPS 15 9570
+
+- A lot easier than I initially thought
+
+- Download the Windows media creation tool (https://www.microsoft.com/en-au/software-download/windows10), which will help setup a Windows 10 installation image on a USB stick.
+- Plug the USB stick into the laptop. (Do not make any changes to the BIOS or settings)
+- Start up the laptop and hold the F12 button down to access the BIOS settings.
+- Select the USB stick option and continue. (Yes it is that simple...)
+- Go though the installation process. At some stage you will need to repartition the hard drive. Delete all the partitions so that only one line is left and then click "Next". (i.e. do not click on "New").
+- Once Windows 10 is installed you will have to install the drivers.
+- You only need to download and install the "Dell Command | Update" package to install all driver, from the Dell support page.
+  - After reboot run the "Dell Command | Update" application to install all the drivers
