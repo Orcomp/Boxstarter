@@ -21,6 +21,8 @@ cinst skype
 cinst paint.net
 cinst filezilla
 cinst zoom
+cinst putty.install
+cinst screentogif
 
 cinst microsoft-teams
 cinst treesizefree

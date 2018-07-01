@@ -4,25 +4,26 @@
 # Install manually
 #==================
 
-# Install these products separately since they are large downloads.
+# [VisualStudio](https://visualstudio.microsoft.com/downloads/)
+# Office (Through office365)
+# [Git Credentials manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/)
+# [OneDrive](https://onedrive.live.com/about/en-au/download/)
+# [Fences](https://www.stardock.com/products/fences/)
+# [Fork](https://git-fork.com/) (git client)
+# [Directory Opus](https://www.gpsoft.com.au/)
+# [bvckup2](https://bvckup2.com/)
 
-# Visual Studio
-# Microsoft Office
-
-## NOTE: VS will also install Sql Server
+# VS CodeConstractTools
 
 # Once VS is installed
 #=====================
 
-# cinst resharper # Install manually
+# I think VS restores extensions automatically when you login
 # cinst IndentGuides
 # cinst IHateRegions
 # cinst vscoloroutput
 
-# cinst linqpad4
 # cinst stylecop
-# cinst Wix35
-# cinst dotpeek # Install manually
 
 # The order of installing this is important
 cinst poshgit
@@ -32,13 +33,6 @@ cinst codetrack
 
 # Install manually
 #==================
-
-# YourKit
-# Fences
-# VS CodeConstractTools
-# TPX
-
-# See Readme.md for chrome extensions.
 
 # Others
 #========

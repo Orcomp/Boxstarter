@@ -22,6 +22,9 @@ You can run the scripts multiple times. If a program is already installed it wil
       - [OneDrive](https://onedrive.live.com/about/en-au/download/)
       - [Fences](https://www.stardock.com/products/fences/)
       - [Fork](https://git-fork.com/) (git client)
+      - [Directory Opus](https://www.gpsoft.com.au/)
+      - [bvckup2](https://bvckup2.com/)
+      - [Kindle]()
     1. **PostInstall.txt**
     1. **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
@@ -60,7 +63,7 @@ I generally try and use free or open source software as much as possible. So whe
 
 - [Directory Opus](https://www.gpsoft.com.au/)
 - [bvckup2](https://bvckup2.com/)
-- Fences
+- [Fences](https://www.stardock.com/products/fences/)
 
 ## Notes
 
@@ -70,6 +73,7 @@ I generally try and use free or open source software as much as possible. So whe
 - VSCode extensions: https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list
 - Visual Studio extensions: https://stackoverflow.com/questions/22154485/getting-a-list-of-installed-extensions-and-packages-in-visual-studio-2013
 - Chrome Extensions: type in "chrome://system" then click on the expand extensions button
+- DirectoryOpus settings
 
 ## Keep an eye on
 
@@ -77,3 +81,7 @@ I generally try and use free or open source software as much as possible. So whe
 - https://keeweb.info/
 - https://github.com/icsharpcode/ILSpy
 - https://sourceforge.net/projects/freefilesync/
+- Directory Monitor (https://www.deventerprise.com/)
+- [UltraSearch](https://www.jam-software.com/ultrasearch/)
+- [FreeFileSync](https://freefilesync.org/)
+- [AllDup](http://www.alldup.de/alldup_help/alldup.php)
