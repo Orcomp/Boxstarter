@@ -80,7 +80,6 @@ I generally try and use free or open source software as much as possible. So whe
 
 - Official Software List: I keep this list up to date: http://orcomp.github.io/Blog/#docs/list_of_useful_software
 - Markdown: Use VSCode with some markdown extensions
-
 - VSCode extensions: https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list
 - Visual Studio extensions: https://stackoverflow.com/questions/22154485/getting-a-list-of-installed-extensions-and-packages-in-visual-studio-2013
 - Chrome Extensions: type in "chrome://system" then click on the expand extensions button
@@ -90,9 +89,8 @@ I generally try and use free or open source software as much as possible. So whe
 
 - https://www.duplicati.com/
 - https://keeweb.info/
-- https://github.com/icsharpcode/ILSpy
-- https://sourceforge.net/projects/freefilesync/
-- Directory Monitor (https://www.deventerprise.com/)
+- [ILSpy](https://github.com/icsharpcode/ILSpy)
+- [Directory Monitor](https://www.deventerprise.com/)
 - [UltraSearch](https://www.jam-software.com/ultrasearch/)
 - [FreeFileSync](https://freefilesync.org/)
 - [AllDup](http://www.alldup.de/alldup_help/alldup.php)
@@ -117,7 +115,7 @@ I generally try and use free or open source software as much as possible. So whe
 
 - Only use CPU graphics (disable NVIDIA GPU using the "NVIDIA Control panel" application)
 
-Other solutions:
+*Other solutions:*
 
 - Install "Dell Power Manager" from the windows store: Set to quiet
 
