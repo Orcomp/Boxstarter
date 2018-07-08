@@ -78,7 +78,7 @@ I generally try and use free or open source software as much as possible. So whe
 
 ## Notes
 
-- (*Obsolete:* [My Official Software List](http://orcomp.github.io/Blog/#docs/list_of_useful_software) This document as well as the boxstarter scripts are more up to date.)
+- (**Obsolete:** [My Official Software List](http://orcomp.github.io/Blog/#docs/list_of_useful_software) This document as well as the boxstarter scripts are more up to date.)
 - Markdown: Use VSCode with some markdown extensions
 - VSCode extensions: https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list
 - Visual Studio extensions: https://stackoverflow.com/questions/22154485/getting-a-list-of-installed-extensions-and-packages-in-visual-studio-2013
@@ -100,7 +100,7 @@ I generally try and use free or open source software as much as possible. So whe
 
 ### Re-install XPS 15 9570
 
-- A lot easier than I initially thought
+A lot easier than I initially thought.
 
 - Download the Windows media creation tool (https://www.microsoft.com/en-au/software-download/windows10), which will help setup a Windows 10 installation image on a USB stick.
 - Plug the USB stick into the laptop. (Do not make any changes to the BIOS or settings)
@@ -108,14 +108,13 @@ I generally try and use free or open source software as much as possible. So whe
 - Select the USB stick option and continue. (Yes it is that simple...)
 - Go though the installation process. At some stage you will need to repartition the hard drive. Delete all the partitions so that only one line is left and then click "Next". (i.e. do not click on "New").
 - Once Windows 10 is installed you will have to install the drivers.
-- You only need to download and install the "Dell Command | Update" package to install all driver, from the Dell support page.
-  - After reboot run the "Dell Command | Update" application to install all the drivers
+- You only need to download and install the "Dell Command | Update" package to install all the drivers, from the Dell support page. After installing it, reboot the computer and run it.
 
 #### Fan issue
 
 - Only use CPU graphics (disable NVIDIA GPU using the "NVIDIA Control panel" application)
 
-*Other solutions:*
+**Other solutions:**
 
 - Install "Dell Power Manager" from the windows store: Set to quiet
 
