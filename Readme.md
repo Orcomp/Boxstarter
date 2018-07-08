@@ -54,6 +54,15 @@ Install Chrome Extensions and Chrome Apps: Check the "Chrome Extensions"  and "C
 
 The default anti virus that comes with Windows is good enough if you surf the web sensibly.
 
+In WindowsDefender add the following exclusions:
+
+- Folder: C:\Source folder to the exclusion
+- Process: VisualStudio installation folder
+
+![WindowsDefenderExclusions](images/WindowsDefenderExclusions.png)
+
+Read: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/configure-extension-file-exclusions-windows-defender-antivirus
+
 ### Partitions
 
 Since the OS will be going on a SSD drive no need to partition.
@@ -102,3 +111,12 @@ I generally try and use free or open source software as much as possible. So whe
 - Once Windows 10 is installed you will have to install the drivers.
 - You only need to download and install the "Dell Command | Update" package to install all driver, from the Dell support page.
   - After reboot run the "Dell Command | Update" application to install all the drivers
+
+#### Fan issue
+
+- Install "Dell Power Manager" from the windows store: Set to quiet
+- Only use CPU graphics (disable NVIDIA GPU)
+
+#### BIOS changes
+
+- Set the sleep state to S3
