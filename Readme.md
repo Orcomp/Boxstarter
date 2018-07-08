@@ -25,6 +25,7 @@ You can run the scripts multiple times. If a program is already installed it wil
       - [Directory Opus](https://www.gpsoft.com.au/)
       - [bvckup2](https://bvckup2.com/)
       - [Kindle](https://www.amazon.com/kindle-dbs/fd/kcp)
+      - [Draw.io](https://about.draw.io)
     1. **PostInstall.txt**
     1. **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
@@ -114,9 +115,23 @@ I generally try and use free or open source software as much as possible. So whe
 
 #### Fan issue
 
+- Only use CPU graphics (disable NVIDIA GPU using the "NVIDIA Control panel" application)
+
+Other solutions:
+
 - Install "Dell Power Manager" from the windows store: Set to quiet
-- Only use CPU graphics (disable NVIDIA GPU)
+
+- https://www.dell.com/community/XPS/XPS-9370-Fan-Noise/td-p/5803616/page/17
+- https://communities.intel.com/thread/115794
+- https://www.reddit.com/r/Dell/comments/5y3rii/xps_9560_battery_life_optimization_and_fan/
+
+#### DPI issues on external monitor
+
+Visual Studio and other apps not rendering properly.
+
+Short answer: Make the external monitor the primary monitor.
+
+- https://developercommunity.visualstudio.com/content/problem/25097/font-is-blurry-due-to-not-supporting-mixed-mode-dp.html
+- https://www.danantonielli.com/adobe-app-scaling-on-high-dpi-displays-fix/
 
 #### BIOS changes
-
-- Set the sleep state to S3
