@@ -16,16 +16,16 @@ You can run the scripts multiple times. If a program is already installed it wil
     1. Install drivers (for new installs)
     1. **InstallSoftware.txt**
     1. Manual Installs
-      - [VisualStudio](https://visualstudio.microsoft.com/downloads/)
-      - Office (Through office365)
-      - [Git Credentials manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/)
-      - [OneDrive](https://onedrive.live.com/about/en-au/download/)
-      - [Fences](https://www.stardock.com/products/fences/)
-      - [Fork](https://git-fork.com/) (git client)
-      - [Directory Opus](https://www.gpsoft.com.au/)
-      - [bvckup2](https://bvckup2.com/)
-      - [Kindle](https://www.amazon.com/kindle-dbs/fd/kcp)
-      - [Draw.io](https://about.draw.io)
+       - [VisualStudio](https://visualstudio.microsoft.com/downloads/)
+       - Office (Through office365)
+       - [Git Credentials manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/)
+       - [OneDrive](https://onedrive.live.com/about/en-au/download/)
+       - [Fences](https://www.stardock.com/products/fences/)
+       - [Fork](https://git-fork.com/) (git client)
+       - [Directory Opus](https://www.gpsoft.com.au/)
+       - [bvckup2](https://bvckup2.com/)
+       - [Kindle](https://www.amazon.com/kindle-dbs/fd/kcp)
+       - [Draw.io](https://about.draw.io)
     1. **PostInstall.txt**
     1. **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
@@ -78,7 +78,7 @@ I generally try and use free or open source software as much as possible. So whe
 
 ## Notes
 
-- Official Software List: I keep this list up to date: http://orcomp.github.io/Blog/#docs/list_of_useful_software
+- (*Obsolete:* [My Official Software List](http://orcomp.github.io/Blog/#docs/list_of_useful_software) This document as well as the boxstarter scripts are more up to date.)
 - Markdown: Use VSCode with some markdown extensions
 - VSCode extensions: https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list
 - Visual Studio extensions: https://stackoverflow.com/questions/22154485/getting-a-list-of-installed-extensions-and-packages-in-visual-studio-2013
