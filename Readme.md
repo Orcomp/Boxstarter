@@ -51,6 +51,11 @@ Install Chrome Extensions and Chrome Apps: Check the "Chrome Extensions"  and "C
 - Type "Chrome://flags" into the URL box
   - Set "Enable" resume downloads
 
+#### Extensions
+
+- Toby
+- Session Buddy
+
 ### Antivirus
 
 The default anti virus that comes with Windows is good enough if you surf the web sensibly.
