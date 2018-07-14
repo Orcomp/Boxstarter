@@ -17,8 +17,14 @@ You can run the scripts multiple times. If a program is already installed it wil
     1. **InstallSoftware.txt**
     1. Manual Installs
        - [VisualStudio](https://visualstudio.microsoft.com/downloads/)
+           - [Working File List](https://marketplace.visualstudio.com/items?itemName=Ant-f.WorkingFilesList)
+           - [Productivity Power Tools](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProductivityPowerPack2017)
+           - [Region Expander](https://marketplace.visualstudio.com/items?itemName=DavidPerfors.RegionExpander)
+           - [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
+           - [Viasfora](https://marketplace.visualstudio.com/items?itemName=TomasRestrepo.Viasfora)
+           - [Output Enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer)
        - Office (Through office365)
-       - [Git Credentials manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/)
+       - [Git Credentials manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/) (Should automatically be installed with git for Windows)
        - [OneDrive](https://onedrive.live.com/about/en-au/download/)
        - [Fences](https://www.stardock.com/products/fences/)
        - [Fork](https://git-fork.com/) (git client)
@@ -88,7 +94,7 @@ I generally try and use free or open source software as much as possible. So whe
 - VSCode extensions: https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list
 - Visual Studio extensions: https://stackoverflow.com/questions/22154485/getting-a-list-of-installed-extensions-and-packages-in-visual-studio-2013
 - Chrome Extensions: type in "chrome://system" then click on the expand extensions button
-- DirectoryOpus settings
+- DirectoryOpus settings (Opus has a great wizard to save and restore settings)
 
 ## Keep an eye on
 
@@ -100,6 +106,10 @@ I generally try and use free or open source software as much as possible. So whe
 - [FreeFileSync](https://freefilesync.org/)
 - [AllDup](http://www.alldup.de/alldup_help/alldup.php)
 - [SqliteBrowser](http://sqlitebrowser.org/)
+- sqliteManger
+- Speccy
+- ImgBurn
+- Rosyln pad
 
 ## Guides
 
