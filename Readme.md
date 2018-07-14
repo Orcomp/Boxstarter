@@ -11,10 +11,10 @@ You can run the scripts multiple times. If a program is already installed it wil
 - The boxstarter list only contains software I use regularly.
 - The boxstarter links to use in IE are found at the top of each file.
 - The order in which the files should be run are:
-    1. Update BIOS (for new installs)
-    1. **UpdateWindows.txt** (Run this just after installing windows.)
-    1. Install drivers (for new installs)
-    1. **InstallSoftware.txt**
+    1. Manual: Update BIOS (for new Windows installs)
+    1. Boxstarter: **UpdateWindows.txt** (Run this just after installing windows.)
+    1. Manual: Install drivers (for new Windows installs)
+    1. Boxstarter: **InstallSoftware.txt**
     1. Manual Installs
        - [VisualStudio](https://visualstudio.microsoft.com/downloads/)
            - [Working File List](https://marketplace.visualstudio.com/items?itemName=Ant-f.WorkingFilesList)
@@ -32,10 +32,10 @@ You can run the scripts multiple times. If a program is already installed it wil
        - [bvckup2](https://bvckup2.com/)
        - [Kindle](https://www.amazon.com/kindle-dbs/fd/kcp)
        - [Draw.io](https://about.draw.io)
-    1. **PostInstall.txt**
-    1. **UpdateWindows.txt** (Run windows update again.)
-    1. (Optional) Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
-    1. Run [Simple System Tweaker](http://www.tweaking.com/content/page/simple_system_tweaker.html)
+    1. Boxstarter: **PostInstall.txt**
+    1. Boxstarter: **UpdateWindows.txt** (Run windows update again.)
+    1. (Optional) Manual: Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
+    1. Manual: Run [Simple System Tweaker](http://www.tweaking.com/content/page/simple_system_tweaker.html)
 
 **NOTE:** Whenever you need a program check [Chocolatey](http://chocolatey.org/) first. It is the best place to discover the most used programs by developers for any category.
 
@@ -45,8 +45,8 @@ Most of the programs are available for free.
 
 - Make Notepad2-mod the default text editor: http://www.flos-freeware.ch/doc/notepad2-Replacement.html
   (This will happen automatically after running the Boxstarter scripts)
-- Files and Folder:
 
+- Files and Folder:
   - [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
   - [Application Launcher](http://www.howtogeek.com/howto/11166/use-quick-launch-as-a-super-powered-application-launcher/)
 
@@ -68,7 +68,7 @@ The default anti virus that comes with Windows is good enough if you surf the we
 
 In WindowsDefender add the following exclusions:
 
-- Folder: C:\Source folder to the exclusion
+- Folder: "C:\Source" folder to the exclusion
 - Process: VisualStudio installation folder
 
 ![WindowsDefenderExclusions](images/WindowsDefenderExclusions.png)
@@ -98,8 +98,10 @@ I generally try and use free or open source software as much as possible. So whe
 
 ## Keep an eye on
 
-- https://www.duplicati.com/
-- https://keeweb.info/
+Install from Chocolatey where possible.
+
+- [Duplicati](https://www.duplicati.com/)
+- [KeeWeb](https://keeweb.info/)
 - [ILSpy](https://github.com/icsharpcode/ILSpy)
 - [Directory Monitor](https://www.deventerprise.com/)
 - [UltraSearch](https://www.jam-software.com/ultrasearch/)
@@ -107,9 +109,9 @@ I generally try and use free or open source software as much as possible. So whe
 - [AllDup](http://www.alldup.de/alldup_help/alldup.php)
 - [SqliteBrowser](http://sqlitebrowser.org/)
 - sqliteManger
-- Speccy
-- ImgBurn
-- Rosyln pad
+- [Speccy](https://www.ccleaner.com/speccy)
+- [ImgBurn](http://www.imgburn.com/)
+- [Rosyln pad](https://roslynpad.net/)
 
 ## Guides
 
@@ -147,3 +149,5 @@ Short answer: Make the external monitor the primary monitor.
 - https://www.danantonielli.com/adobe-app-scaling-on-high-dpi-displays-fix/
 
 #### BIOS changes
+
+None
