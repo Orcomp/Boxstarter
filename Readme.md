@@ -19,6 +19,7 @@ You can run the scripts multiple times. If a program is already installed it wil
        - [VisualStudio](https://visualstudio.microsoft.com/downloads/)
            - [Working File List](https://marketplace.visualstudio.com/items?itemName=Ant-f.WorkingFilesList)
            - [Productivity Power Tools](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProductivityPowerPack2017)
+           - [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSIntelliCode)
            - [Region Expander](https://marketplace.visualstudio.com/items?itemName=DavidPerfors.RegionExpander)
            - [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
            - [Viasfora](https://marketplace.visualstudio.com/items?itemName=TomasRestrepo.Viasfora)
@@ -69,7 +70,9 @@ The default anti virus that comes with Windows is good enough if you surf the we
 In WindowsDefender add the following exclusions:
 
 - Folder: "C:\Source" folder to the exclusion
-- Process: VisualStudio installation folder
+- Process: VisualStudio
+- Process: Bvckup2
+- Process: Directory Opus
 
 ![WindowsDefenderExclusions](images/WindowsDefenderExclusions.png)
 
@@ -104,18 +107,24 @@ Install from Chocolatey where possible.
 - [KeeWeb](https://keeweb.info/)
 - [ILSpy](https://github.com/icsharpcode/ILSpy)
 - [Directory Monitor](https://www.deventerprise.com/)
-- [UltraSearch](https://www.jam-software.com/ultrasearch/)
-- [FreeFileSync](https://freefilesync.org/)
-- [AllDup](http://www.alldup.de/alldup_help/alldup.php)
 - [SqliteBrowser](http://sqlitebrowser.org/)
 - sqliteManger
 - [Speccy](https://www.ccleaner.com/speccy)
 - [ImgBurn](http://www.imgburn.com/)
 - [Rosyln pad](https://roslynpad.net/)
 
+## Backup utilities:
+
+See InstallExtraSoftware.txt:
+
+- [UltraSearch](https://www.jam-software.com/ultrasearch/)
+- [FreeFileSync](https://freefilesync.org/)
+- [AllDup](http://www.alldup.de/alldup_help/alldup.php)
+- TreeSize free is already installed in InstallSoftware.txt script
+
 ## Guides
 
-### Re-install XPS 15 9570
+### Re-install Windows XPS 15 9570
 
 A lot easier than I initially thought.
 
@@ -151,3 +160,43 @@ Short answer: Make the external monitor the primary monitor.
 #### BIOS changes
 
 None
+
+### Re-install Windows XPS Tower 8930
+
+Follow exactly the same steps as the XPS 9570.
+No need to change anything in the BIOS. Leave Boot security and UEFI on. Insert the USB and reboot. Click F12 and choose to boot from USB.
+
+Install:
+
+- Drivers: https://www.dell.com/support/home/au/en/aubsd1/product-support/product/xps-8930-desktop/drivers
+- SupportAssist
+- Intel Rapid Storage
+- Samsung Magician
+
+### Other Settings
+
+#### Windows 10
+
+- Device Encryption : Turn Off (Turn off bitlocker on Windows 10 Pro or above)
+
+#### NAS Setup (LACIE-2Big)
+
+Make sure to create a user account on the NAS that has exactly the same username and password as the windows (workstation) login.
+
+Login to the NAS using http:\\lacie-2big-nas
+
+#### Printer Scanner
+
+Install drivers and toolbox for MF 4350d.
+
+This can be very tricky. After a lot of research follow these steps:
+
+- Do NOT plug the USB cable from the printer to the computer.
+- First install the drivers and patch from the Canon USA site.
+- Search for MF 4350d here https://www.usa.canon.com/internet/portal/us/home
+- Install the drivers and patch then reboot.
+- Then install the Toolbox software. Make changes to the software to always run as admin. Follow the instructions here: https://community.usa.canon.com/t5/Office-Printers/MF-toolbox-can-t-find-scanner/td-p/223042
+
+#### Icons
+
+- Right click on desktop and change the icons to small

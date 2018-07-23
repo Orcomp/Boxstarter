@@ -1,0 +1,9 @@
+# No Reboot
+# http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/Orcomp/Boxstarter/master/InstallSoftware.txt
+
+# Backup Utilities
+#=================
+
+cinst alldup
+cinst freefilesync
+cinst ultrasearch
