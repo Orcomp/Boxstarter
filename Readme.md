@@ -16,12 +16,12 @@ You can run the scripts multiple times. If a program is already installed it wil
     1. Manual: Install drivers (for new Windows installs)
     1. Boxstarter: **InstallSoftware.txt**
     1. Manual Installs
-       - [VisualStudio](https://visualstudio.microsoft.com/downloads/)
+       - [VisualStudio](https://visualstudio.microsoft.com/downloads/) (Don't need Resharper with these extensions)
            - [Working File List](https://marketplace.visualstudio.com/items?itemName=Ant-f.WorkingFilesList)
            - [Productivity Power Tools](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProductivityPowerPack2017)
            - [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSIntelliCode)
            - [Region Expander](https://marketplace.visualstudio.com/items?itemName=DavidPerfors.RegionExpander)
-           - [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
+           - [CodeNav](https://marketplace.visualstudio.com/items?itemName=SamirBoulema.CodeNav)
            - [Viasfora](https://marketplace.visualstudio.com/items?itemName=TomasRestrepo.Viasfora)
            - [Output Enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer)
        - Office (Through office365)
