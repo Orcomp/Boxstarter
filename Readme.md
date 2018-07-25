@@ -63,6 +63,11 @@ Install Chrome Extensions and Chrome Apps: Check the "Chrome Extensions"  and "C
 - Toby
 - Session Buddy
 
+**Keep an eye on:**
+
+- Tabli
+- Tidy Bookmark Tree
+
 ### Antivirus
 
 The default anti virus that comes with Windows is good enough if you surf the web sensibly.
@@ -99,7 +104,7 @@ I generally try and use free or open source software as much as possible. So whe
 - Chrome Extensions: type in "chrome://system" then click on the expand extensions button
 - DirectoryOpus settings (Opus has a great wizard to save and restore settings)
 
-## Keep an eye on
+## Applications that could come in handy
 
 Install from Chocolatey where possible.
 
@@ -108,12 +113,15 @@ Install from Chocolatey where possible.
 - [ILSpy](https://github.com/icsharpcode/ILSpy)
 - [Directory Monitor](https://www.deventerprise.com/)
 - [SqliteBrowser](http://sqlitebrowser.org/)
-- sqliteManger
 - [Speccy](https://www.ccleaner.com/speccy)
 - [ImgBurn](http://www.imgburn.com/)
 - [Rosyln pad](https://roslynpad.net/)
+- [Cmder](http://cmder.net/)
+- [HWmonitor](https://www.hwinfo.com) (Monitor hardware sensors):
+- [One Commander](http://onecommander.com)
+- [gMaster](https://www.gmaster.io) (git manager)
 
-## Backup utilities:
+## Backup utilities
 
 See InstallExtraSoftware.txt:
 
