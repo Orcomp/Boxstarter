@@ -24,6 +24,7 @@ You can run the scripts multiple times. If a program is already installed it wil
            - [CodeNav](https://marketplace.visualstudio.com/items?itemName=SamirBoulema.CodeNav)
            - [Viasfora](https://marketplace.visualstudio.com/items?itemName=TomasRestrepo.Viasfora)
            - [Output Enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer)
+           - [Trailing White Space](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
        - Office (Through office365)
        - [Git Credentials manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/) (Should automatically be installed with git for Windows)
        - [OneDrive](https://onedrive.live.com/about/en-au/download/)
@@ -120,6 +121,7 @@ Install from Chocolatey where possible.
 - [HWmonitor](https://www.hwinfo.com) (Monitor hardware sensors):
 - [One Commander](http://onecommander.com)
 - [gMaster](https://www.gmaster.io) (git manager)
+- [Mouse without borders](https://www.microsoft.com/en-us/garage/profiles/mouse-without-borders/)(Virtual KVM)
 
 ## Backup utilities
 
