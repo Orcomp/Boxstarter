@@ -8,6 +8,11 @@ You can run the scripts multiple times. If a program is already installed it wil
 
 ## Introduction
 
+Every time I do a clean Windows install I update the scripts and notes to make the next clean install easier and faster.
+The goal is to setup a productive .NET dev environment as quickly as possible by only installing the bare minimum. 
+
+These notes and scripts were first started around 2014, and have gone through numerous revisions.
+
 - The boxstarter list only contains software I use regularly.
 - The boxstarter links to use in IE are found at the top of each file.
 - The order in which the files should be run are:
@@ -16,17 +21,10 @@ You can run the scripts multiple times. If a program is already installed it wil
     1. Manual: Install drivers (for new Windows installs)
     1. Boxstarter: **InstallSoftware.txt**
     1. Manual Installs
-       - [VisualStudio](https://visualstudio.microsoft.com/downloads/) (Don't need Resharper with these extensions)
-           - [Working File List](https://marketplace.visualstudio.com/items?itemName=Ant-f.WorkingFilesList)
-           - [Productivity Power Tools](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProductivityPowerPack2017)
-           - [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSIntelliCode)
-           - [Region Expander](https://marketplace.visualstudio.com/items?itemName=DavidPerfors.RegionExpander)
-           - [CodeNav](https://marketplace.visualstudio.com/items?itemName=SamirBoulema.CodeNav)
-           - [Viasfora](https://marketplace.visualstudio.com/items?itemName=TomasRestrepo.Viasfora)
-           - [Output Enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer)
-           - [Trailing White Space](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
-       - Office (Through office365)
-       - [Git Credentials manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/) (Should automatically be installed with git for Windows)
+       - [Rider](https://www.jetbrains.com/rider/) (Seriously good C# dev IDE)
+       - [VisualStudio - Preview](https://visualstudio.microsoft.com/vs/preview/) 
+        - NOTE: See VisualStudio_Rider_Setup.md file, to setup Rider and VS
+       - MS Office (Through office365)
        - [OneDrive](https://onedrive.live.com/about/en-au/download/)
        - [Fences](https://www.stardock.com/products/fences/)
        - [Fork](https://git-fork.com/) (git client)
@@ -50,11 +48,17 @@ Most of the programs are available for free.
 
 - Files and Folder:
   - [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
-  - [Application Launcher](http://www.howtogeek.com/howto/11166/use-quick-launch-as-a-super-powered-application-launcher/)
+
+### Windows
+
+#### Disable search indexing
+
+- Run Services.msc
+- Find " Windows Search", double click on the entry
+- Set Startup Type to "Disabled"
+- Reboot
 
 ### Chrome
-
-Install Chrome Extensions and Chrome Apps: Check the "Chrome Extensions"  and "Chrome Apps" sections [here](http://orcomp.github.io/Blog/#docs/list_of_useful_software).
 
 - Type "Chrome://flags" into the URL box
   - Set "Enable" resume downloads
@@ -98,7 +102,6 @@ I generally try and use free or open source software as much as possible. So whe
 
 ## Notes
 
-- (**Obsolete:** [My Official Software List](http://orcomp.github.io/Blog/#docs/list_of_useful_software) This document as well as the boxstarter scripts are more up to date.)
 - Markdown: Use VSCode with some markdown extensions
 - VSCode extensions: https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list
 - Visual Studio extensions: https://stackoverflow.com/questions/22154485/getting-a-list-of-installed-extensions-and-packages-in-visual-studio-2013
@@ -122,6 +125,7 @@ Install from Chocolatey where possible.
 - [One Commander](http://onecommander.com)
 - [gMaster](https://www.gmaster.io) (git manager)
 - [Mouse without borders](https://www.microsoft.com/en-us/garage/profiles/mouse-without-borders/)(Virtual KVM)
+- [Mind Map](https://github.com/raydac/netbeans-mmd-plugin)
 
 ## Backup utilities
 
@@ -133,6 +137,18 @@ See InstallExtraSoftware.txt:
 - TreeSize free is already installed in InstallSoftware.txt script
 
 ## Guides
+
+### bvckup v2
+
+Probably the fastest way of copying files from one directory to another
+
+Straight one time copy of files from one folder to another: https://bvckup2.com/support/forum/topic/917
+
+- Manually run job
+- Copy files in full
+- Disable move/rename detection
+
+Make sure anti-virus software is disabled
 
 ### Re-install Windows XPS 15 9570
 
@@ -149,8 +165,11 @@ A lot easier than I initially thought.
 #### Fan issue
 
 - Only use CPU graphics (disable NVIDIA GPU using the "NVIDIA Control panel" application)
+- I wonder whether not installing the NVIDIA driver would fix this permanently in the first place...
 
 **Other solutions:**
+
+Here are other solutions I found online while doing this research. I haven't tried them yet. (Haven't had to...)
 
 - Install "Dell Power Manager" from the windows store: Set to quiet
 
@@ -169,7 +188,29 @@ Short answer: Make the external monitor the primary monitor.
 
 #### BIOS changes
 
-None
+- System Configuration / SATA Operation = AHCI
+- System Configuration / Keyboard illumination = Dim
+- System Configuration / Touchscreen = off
+- Power Management / Primary battery charge configuration = Primary AC use
+
+#### Black screen flicker issue
+
+- Disable "refresh" in Intel Graphics, under the performance tab
+- https://www.reddit.com/r/Dell/comments/8wy79o/black_screen_flicker_on_dell_xps_15_9570/
+
+#### Other
+
+- Undervolting: https://www.notebookcheck.net/Intel-Extreme-Tuning-Utility-XTU-Undervolting-Guide.272120.0.html
+
+  - Install intel XTU
+  - Cache voltage offset: -160mV
+  - Graphics offset: -35mV
+
+- RAM upgrade: https://www.windowscentral.com/best-dell-xps-15-9570-compatible-ram
+- RAM upgrade "how to" guide: https://www.windowscentral.com/how-add-more-ram-dell-xps-15-9570
+
+https://www.dell.com/community/XPS/LAPTOP-FAN-CONTROL/m-p/6055828#M9486
+https://www.dell.com/community/XPS/Extreme-fan-noise-on-XPS-9570/td-p/6095873
 
 ### Re-install Windows XPS Tower 8930
 
@@ -184,6 +225,21 @@ Install:
 - Samsung Magician
 
 ### Other Settings
+
+#### NVME M.2 slot
+
+In order to get the NVME M.2 slot to work we need to use AHCI instead of RAID.
+
+This is easy to do when following these steps:
+
+- Run msconfig
+- Enable Safe Boot (minimal)
+- Reboot into BIOS and change to AHCI
+- Boot into safe mode
+- Run msconfig and disable safe boot
+- Reboot
+
+Then we need to format the new partition in order for Windows to see it in Explorer.
 
 #### Windows 10
 

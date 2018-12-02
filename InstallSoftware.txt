@@ -12,7 +12,7 @@ cinst googlechrome
 cinst firefox
 cinst greenshot
 cinst vlc
-cinst f.lux
+# cinst f.lux (Microsoft Windows manages desktop lighting now)
 cinst keepass.install
 cinst FoxitReader
 cinst kdiff3
@@ -46,7 +46,7 @@ cinst vscode-powershell
 cinst vscode-icons
 cinst vscode-gitlens
 cinst vscode-codespellchecker
-cinst vscode-markdownlint
+# cinst vscode-markdownlint
 
 cinst notepadplusplus.install
 

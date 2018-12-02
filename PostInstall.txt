@@ -6,7 +6,6 @@
 
 # [VisualStudio](https://visualstudio.microsoft.com/downloads/)
 # Office (Through office365)
-# [Git Credentials manager](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/)
 # [OneDrive](https://onedrive.live.com/about/en-au/download/)
 # [Fences](https://www.stardock.com/products/fences/)
 # [Fork](https://git-fork.com/) (git client)
@@ -18,16 +17,11 @@
 # Once VS is installed
 #=====================
 
-# I think VS restores extensions automatically when you login
-# cinst IndentGuides
-# cinst IHateRegions
-# cinst vscoloroutput
-
 # cinst stylecop
 
 # The order of installing this is important
 cinst poshgit
-cinst gitextensions
+# cinst gitextensions # Use git-fork instead
 
 cinst codetrack
 
