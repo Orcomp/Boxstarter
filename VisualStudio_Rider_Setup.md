@@ -58,7 +58,6 @@ Don't really need Resharper when using VS-Preview with these extensions:
 - [Viasfora](https://marketplace.visualstudio.com/items?itemName=TomasRestrepo.Viasfora) (Colors are hard to see)
 - [Code Graph](https://marketplace.visualstudio.com/items?itemName=YaobinOuyang.CodeAtlas) (Not very intuitive)
 
-
 ## Rider
 
 Has a lot of good stuff already backed in. Don't need nearly as many plugins or extensions.
