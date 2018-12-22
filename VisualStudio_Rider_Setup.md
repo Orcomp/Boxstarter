@@ -30,6 +30,7 @@ Don't really need Resharper when using VS-Preview with these extensions:
 
 - [Working File List](https://marketplace.visualstudio.com/items?itemName=Ant-f.WorkingFilesList)
   - Options > Working Files List > General > Document display order = Recent
+  - Show "2" path segments for each file
 - [Region Expander](https://marketplace.visualstudio.com/items?itemName=DavidPerfors.RegionExpander)
 - [CodeNav](https://marketplace.visualstudio.com/items?itemName=SamirBoulema.CodeNav)
 - [Output Enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer)
@@ -41,7 +42,7 @@ Don't really need Resharper when using VS-Preview with these extensions:
 - [Switch Startup Project](https://marketplace.visualstudio.com/items?itemName=vs-publisher-141975.SwitchStartupProjectforVS2017)
 - [Microsoft Code Analysis 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017)
 - [Sharpen](https://marketplace.visualstudio.com/items?itemName=ironcev.sharpen)
-- [Indent Guides](https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides)
+- [Indent Guides](https://marketplace.visualstudio.com/items?itemName=SteveDowerMSFT.IndentGuides) (Ignore the VS 2017 warning)
   - Default.Highlight Style = Solid (thick)
   - Unaligned.Visible = False
   - #0.Visible = True
