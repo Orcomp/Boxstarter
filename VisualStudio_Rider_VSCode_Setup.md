@@ -12,6 +12,7 @@ Open the "Tools > Options" window and search for the following key words:
 - "XAML Designer" = disable
 - "Scroll Bars" Use map mode for vertical scroll bar = enable
 
+Look for the following categories:
 
 - Debugging > Symbols > Cache symbols in this directory = C:\Source\_symbols
 - Debugging > General > Enable Just My Code = disable
