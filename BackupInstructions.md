@@ -34,10 +34,10 @@ Then delete duplicate files and structure things on all older devices (one at a 
 - $WINDOWS.~BT and $WINDOWS.~WS
 - ProgramData/PackageCache: https://superuser.com/questions/455853/can-i-delete-the-folder-c-programdata-package-cache?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 
-### Specific
+### Specific to my setup
+
 - C:\Source\_packages
 - C:\Source\_symbols
-
 - AppData\Local\NuGet
 - Syncfusion
 - JetBrains program files
