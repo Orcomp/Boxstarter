@@ -12,7 +12,7 @@
 # [Directory Opus](https://www.gpsoft.com.au/)
 # [bvckup2](https://bvckup2.com/)
 
-# VS CodeConstractTools
+# VS CodeContract Tools
 
 # Once VS is installed
 #=====================

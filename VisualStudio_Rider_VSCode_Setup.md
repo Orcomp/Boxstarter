@@ -12,6 +12,8 @@ Open the "Tools > Options" window and search for the following key words:
 - "XAML Designer" = disable
 - "Scroll Bars" Use map mode for vertical scroll bar = enable
 
+Look for the following categories:
+
 - Debugging > Symbols > Cache symbols in this directory = C:\Source\_symbols
 - Debugging > General > Enable Just My Code = disable
 - Debugging > General > Enable source server support = enable
@@ -66,3 +68,19 @@ Has a lot of good stuff already backed in. Don't need nearly as many plugins or 
 ### Extensions
 
 - [Code Glance](https://plugins.jetbrains.com/plugin/7275-codeglance)
+
+## VS Code
+
+### Extensions
+
+Start with SettingsSync when installing extensions on a new VS Code instance.
+The list of extensions here is for reference purposes:
+
+- SettingsSync
+- Beautify
+- Todo+
+- Code Spell Checker
+- GitLens
+- vscode-icons
+- C#
+- AsciiDoc
