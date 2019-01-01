@@ -25,6 +25,15 @@ Straight one time copy of files from one folder to another: https://bvckup2.com/
 
 Make sure anti-virus software is disabled
 
+## Folders
+
+- C:/ProgramData
+- C:/Users/[Username]
+
+Any other folders that were created
+
+- C:/Files
+
 ## Links
 
 - https://www.howtogeek.com/howto/30173/what-files-should-you-backup-on-your-windows-pc/
