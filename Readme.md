@@ -41,6 +41,8 @@ These notes and scripts were first started around 2014, and have gone through nu
 
 Most of the programs are available for free.
 
+Product keys are available from: https://my.visualstudio.com/productkeys
+
 ## Post Install - Configurations
 
 - Make Notepad2-mod the default text editor: http://www.flos-freeware.ch/doc/notepad2-Replacement.html
