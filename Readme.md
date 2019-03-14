@@ -25,9 +25,10 @@ These notes and scripts were first started around 2014, and have gone through nu
        - [VisualStudio - Preview](https://visualstudio.microsoft.com/vs/preview/) 
         - NOTE: See VisualStudio_Rider_Setup.md file, to setup Rider and VS
        - MS Office (Through office365)
+       - [.Net Core preview](https://dotnet.microsoft.com/download/dotnet-core/3.0)
        - [OneDrive](https://onedrive.live.com/about/en-au/download/)
        - [Fences](https://www.stardock.com/products/fences/)
-       - [Fork](https://git-fork.com/) (git client)
+       - [GitKraken](https://www.gitkraken.com/git-client) (git client)
        - [Directory Opus](https://www.gpsoft.com.au/)
        - [bvckup2](https://bvckup2.com/)
        - [Kindle](https://www.amazon.com/kindle-dbs/fd/kcp)
@@ -73,6 +74,7 @@ Product keys are available from: https://my.visualstudio.com/productkeys
 
 - Toby
 - Session Buddy
+- Octotree
 
 **Keep an eye on:**
 
@@ -138,7 +140,7 @@ Install from Chocolatey where possible.
 
 See InstallExtraSoftware.txt:
 
-- [UltraSearch](https://www.jam-software.com/ultrasearch/)
+- [UltraSearch](https://www.jam-software.com/ultrasearch/) already installed in InstallSoftware.txt script
 - [FreeFileSync](https://freefilesync.org/)
 - [AllDup](http://www.alldup.de/alldup_help/alldup.php)
 - TreeSize free is already installed in InstallSoftware.txt script

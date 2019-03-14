@@ -26,6 +26,7 @@ cinst screentogif
 
 cinst microsoft-teams
 cinst treesizefree
+cinst ultrasearch
 cinst processhacker
 
 # http://www.tweaking.com/content/page/simple_system_tweaker.html
