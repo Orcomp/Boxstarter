@@ -22,6 +22,8 @@ Enable-RemoteDesktop
 
 Disable-BingSearch
 
+Disable-GameBarTips
+
 # Update runtimes
 #=================
 

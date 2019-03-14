@@ -53,6 +53,10 @@ Product keys are available from: https://my.visualstudio.com/productkeys
 
 ### Windows
 
+#### Setup Date Time, Region, Language properly
+
+- https://support.gitkraken.com/known-issues/date-format/
+
 #### Disable search indexing
 
 - Run Services.msc
@@ -128,6 +132,7 @@ Install from Chocolatey where possible.
 - [gMaster](https://www.gmaster.io) (git manager)
 - [Mouse without borders](https://www.microsoft.com/en-us/garage/profiles/mouse-without-borders/)(Virtual KVM)
 - [Mind Map](https://github.com/raydac/netbeans-mmd-plugin)
+- [Cmder](http://cmder.net/)
 
 ## Backup utilities
 
@@ -223,6 +228,7 @@ Install:
 
 - Drivers: https://www.dell.com/support/home/au/en/aubsd1/product-support/product/xps-8930-desktop/drivers
 - SupportAssist
+- Intel Toolbox (includes drivers for Optane 900P)
 - Intel Rapid Storage
 - Samsung Magician
 
