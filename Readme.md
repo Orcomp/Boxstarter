@@ -44,6 +44,8 @@ Most of the programs are available for free.
 
 Product keys are available from: https://my.visualstudio.com/productkeys
 
+Licenses and settings are available here: https://github.com/Orcomp/Licenses-and-settings
+
 ## Post Install - Configurations
 
 - Make Notepad2-mod the default text editor: http://www.flos-freeware.ch/doc/notepad2-Replacement.html
@@ -58,17 +60,16 @@ Product keys are available from: https://my.visualstudio.com/productkeys
 
 - https://support.gitkraken.com/known-issues/date-format/
 
+#### Icons
+
+- Right click on desktop and change the icons to small
+
 #### Disable search indexing
 
 - Run Services.msc
 - Find " Windows Search", double click on the entry
 - Set Startup Type to "Disabled"
 - Reboot
-
-### Chrome
-
-- Type "Chrome://flags" into the URL box
-  - Set "Enable" resume downloads
 
 #### Extensions
 
@@ -88,9 +89,9 @@ The default anti virus that comes with Windows is good enough if you surf the we
 In WindowsDefender add the following exclusions:
 
 - Folder: "C:\Source" folder to the exclusion
-- Process: VisualStudio
-- Process: Bvckup2
-- Process: Directory Opus
+- Process: C:\Program Files (x86)\Microsoft Visual Studio\*
+- Process: C:\Program Files\Bvckup 2\*
+- Process: C:\Program Files\GPSoftware\Directory Opus\*
 
 ![WindowsDefenderExclusions](images/WindowsDefenderExclusions.png)
 
@@ -272,7 +273,3 @@ This can be very tricky. After a lot of research follow these steps:
 - Search for MF 4350d here https://www.usa.canon.com/internet/portal/us/home
 - Install the drivers and patch then reboot.
 - Then install the Toolbox software. Make changes to the software to always run as admin. Follow the instructions here: https://community.usa.canon.com/t5/Office-Printers/MF-toolbox-can-t-find-scanner/td-p/223042
-
-#### Icons
-
-- Right click on desktop and change the icons to small
