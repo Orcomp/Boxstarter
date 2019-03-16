@@ -71,6 +71,10 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 - Set Startup Type to "Disabled"
 - Reboot
 
+#### Power Plan
+
+Make sure power plan is on ultimate or performance
+
 #### Extensions
 
 - Toby
