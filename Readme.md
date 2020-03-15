@@ -33,6 +33,7 @@ These notes and scripts were first started around 2014, and have gone through nu
        - [bvckup2](https://bvckup2.com/)
        - [Kindle](https://www.amazon.com/kindle-dbs/fd/kcp)
        - [Draw.io](https://about.draw.io)
+       - [WordWeb](https://wordweb.info)
     1. Boxstarter: **PostInstall.txt**
     1. Boxstarter: **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Manual: Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
@@ -80,6 +81,8 @@ Make sure power plan is on ultimate or performance
 - Toby
 - Session Buddy
 - Octotree
+- todoist
+- EasyReader
 
 **Keep an eye on:**
 
@@ -140,6 +143,7 @@ Install from Chocolatey where possible.
 - [Mouse without borders](https://www.microsoft.com/en-us/garage/profiles/mouse-without-borders/)(Virtual KVM)
 - [Mind Map](https://github.com/raydac/netbeans-mmd-plugin)
 - [Cmder](http://cmder.net/)
+- [WorkFlowy](https://workflowy.com/)
 
 ## Backup utilities
 
