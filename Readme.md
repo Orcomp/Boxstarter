@@ -100,7 +100,8 @@ In WindowsDefender add the following exclusions:
 - Process: C:\Program Files\Bvckup 2\*
 - Process: C:\Program Files\GPSoftware\Directory Opus\*
 
-![WindowsDefenderExclusions](images/WindowsDefenderExclusions.png)
+![WindowsDefenderExclusions1](images/WindowsDefenderExclusions.png)
+![WindowsDefenderExclusions2](images/ExcludeFromDefender.png)
 
 Read: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/configure-extension-file-exclusions-windows-defender-antivirus
 
@@ -229,6 +230,8 @@ Short answer: Make the external monitor the primary monitor.
 
 https://www.dell.com/community/XPS/LAPTOP-FAN-CONTROL/m-p/6055828#M9486
 https://www.dell.com/community/XPS/Extreme-fan-noise-on-XPS-9570/td-p/6095873
+
+- Find out if we can disable the NVIDIA graphics completely from the BIOS
 
 ### Re-install Windows XPS Tower 8930
 
