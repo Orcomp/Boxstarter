@@ -49,6 +49,9 @@ cinst vscode-gitlens
 cinst vscode-codespellchecker
 # cinst vscode-markdownlint
 
+# Ruby for Asciidoctor
+cinst ruby
+
 cinst notepadplusplus.install
 
 # Set notepad2 as the default notepad editor.
