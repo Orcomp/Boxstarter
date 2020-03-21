@@ -34,6 +34,7 @@ These notes and scripts were first started around 2014, and have gone through nu
        - [Kindle](https://www.amazon.com/kindle-dbs/fd/kcp)
        - [Draw.io](https://about.draw.io)
        - [WordWeb](https://wordweb.info)
+       - [Greenshot](https://github.com/greenshot/greenshot/releases)
     1. Boxstarter: **PostInstall.txt**
     1. Boxstarter: **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Manual: Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)

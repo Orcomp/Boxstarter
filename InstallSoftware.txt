@@ -10,7 +10,7 @@
 
 cinst googlechrome
 cinst firefox
-cinst greenshot
+# cinst greenshot Install from github
 cinst vlc
 # cinst f.lux (Microsoft Windows manages desktop lighting now)
 cinst keepass.install
