@@ -35,6 +35,7 @@ These notes and scripts were first started around 2014, and have gone through nu
        - [Draw.io](https://about.draw.io)
        - [WordWeb](https://wordweb.info)
        - [Greenshot](https://github.com/greenshot/greenshot/releases)
+       - [Mouse without borders](https://www.microsoft.com/en-us/garage/profiles/mouse-without-borders/)(Virtual KVM)
     1. Boxstarter: **PostInstall.txt**
     1. Boxstarter: **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Manual: Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
@@ -142,7 +143,6 @@ Install from Chocolatey where possible.
 - [HWmonitor](https://www.hwinfo.com) (Monitor hardware sensors):
 - [One Commander](http://onecommander.com)
 - [gMaster](https://www.gmaster.io) (git manager)
-- [Mouse without borders](https://www.microsoft.com/en-us/garage/profiles/mouse-without-borders/)(Virtual KVM)
 - [Mind Map](https://github.com/raydac/netbeans-mmd-plugin)
 - [Cmder](http://cmder.net/)
 - [WorkFlowy](https://workflowy.com/)
