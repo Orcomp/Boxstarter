@@ -119,6 +119,9 @@ I generally try and use free or open source software as much as possible. So whe
 - [Directory Opus](https://www.gpsoft.com.au/)
 - [bvckup2](https://bvckup2.com/)
 - [Fences](https://www.stardock.com/products/fences/)
+- [WordWeb](https://wordweb.info)
+- [Fork - git](https://git-fork.com/)
+- [Duplicate Cleaner Pro](https://www.duplicatecleaner.com/)
 
 ## Notes
 
