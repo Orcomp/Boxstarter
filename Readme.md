@@ -147,6 +147,8 @@ Install from Chocolatey where possible.
 - [Mind Map](https://github.com/raydac/netbeans-mmd-plugin)
 - [Cmder](http://cmder.net/)
 - [WorkFlowy](https://workflowy.com/)
+- [EaseUS - Backup](https://www.easeus.com/backup-software/tb-free.html)
+- [EaseUS - Partition](https://www.easeus.com/partition-manager/epm-free.html)
 
 ## Backup utilities
 
