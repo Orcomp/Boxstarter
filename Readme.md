@@ -36,6 +36,7 @@ These notes and scripts were first started around 2014, and have gone through nu
        - [WordWeb](https://wordweb.info)
        - [Greenshot](https://github.com/greenshot/greenshot/releases)
        - [Mouse without borders](https://www.microsoft.com/en-us/garage/profiles/mouse-without-borders/)(Virtual KVM)
+       - [Razer Synapse](https://www.razer.com/synapse)
     1. Boxstarter: **PostInstall.txt**
     1. Boxstarter: **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Manual: Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
