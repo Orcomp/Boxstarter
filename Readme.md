@@ -152,6 +152,7 @@ Install from Chocolatey where possible.
 - [WorkFlowy](https://workflowy.com/)
 - [EaseUS - Backup](https://www.easeus.com/backup-software/tb-free.html)
 - [EaseUS - Partition](https://www.easeus.com/partition-manager/epm-free.html)
+- [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
 
 ## Backup utilities
 
