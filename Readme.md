@@ -79,6 +79,10 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 
 Make sure power plan is on ultimate or performance
 
+#### Disable auto restart on scheduled updates
+
+- https://www.makeuseof.com/tag/disable-forced-restarts-windows-update/
+
 #### Extensions
 
 - Toby
