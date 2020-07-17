@@ -5,14 +5,21 @@
 # Runtimes
 #==========
 
+cinst dotnetcore-sdk
+cinst javaruntime
+
+
 # General
 #=========
 
 cinst googlechrome
 cinst firefox
-# cinst greenshot Install from github
-cinst vlc
+cinst microsoft-edge
+
+# cinst greenshot (Install from github)
 # cinst f.lux (Microsoft Windows manages desktop lighting now)
+
+cinst vlc
 cinst keepass.install
 cinst FoxitReader
 cinst kdiff3
@@ -21,21 +28,33 @@ cinst skype
 cinst paint.net
 cinst filezilla
 cinst zoom
-cinst putty.install
-cinst screentogif
+cinst stardock-fences
+cinst kindle
+cinst drawio
+cinst mousewithoutborders
+cinst samsung-magician
+cinst intel.ssd.toolbox
+
+# cinst putty.install
+# cinst screentogif
 
 cinst microsoft-teams
 cinst treesizefree
 cinst ultrasearch
 cinst processhacker
 
-# http://www.tweaking.com/content/page/simple_system_tweaker.html
-cinst simplesystemtweaker
-
 cinst itunes
+cinst 7zip.install
+cinst directoryopus
+cinst razer-synapse-2
+cinst powertoys
+cinst rufus
+cinst zotero
 
 # Dev tools
 #===========
+
+cinst PowerShell
 
 # Git will install credentials manager as well
 # https://github.com/Microsoft/Git-Credential-Manager-for-Windows/
@@ -54,9 +73,14 @@ cinst ruby
 
 cinst notepadplusplus.install
 
-# Set notepad2 as the default notepad editor.
-cinst notepad2-mod
-cinst 7zip.install
+cinst jetbrainstoolbox
+cinst git-fork
+
+# Dell
+#========
+
+cinst dellcommandupdate
+
 
 # Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
 $env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin"

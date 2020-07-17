@@ -9,7 +9,6 @@ Install-WindowsUpdate -AcceptEula
 Update-ExecutionPolicy Unrestricted
 
 Disable-InternetExplorerESC
-Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
 Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableShowStartOnActiveScreen -EnableShowAppsViewOnStartScreen -EnableSearchEverywhereInAppsView -EnableListDesktopAppsFirst
 
@@ -23,13 +22,3 @@ Enable-RemoteDesktop
 Disable-BingSearch
 
 Disable-GameBarTips
-
-# Update runtimes
-#=================
-
-cinst PowerShell
-
-# Don't need to update .NET as we will be installing visual studio,
-# which will do that automatically.
-# cinst DotNet4.0
-# cinst DotNet4.5

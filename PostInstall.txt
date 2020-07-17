@@ -8,8 +8,6 @@
 # Office (Through office365)
 # [OneDrive](https://onedrive.live.com/about/en-au/download/)
 # [Fences](https://www.stardock.com/products/fences/)
-# [Fork](https://git-fork.com/) (git client)
-# [Directory Opus](https://www.gpsoft.com.au/)
 # [bvckup2](https://bvckup2.com/)
 
 # VS CodeContract Tools
@@ -17,21 +15,14 @@
 # Once VS is installed
 #=====================
 
-# cinst stylecop
-
-# The order of installing this is important
 cinst poshgit
-# cinst gitextensions # Use git-fork instead
 
-cinst codetrack
 
 # Install manually
 #==================
 
 # Others
 #========
-
-# cinst imgburn
 
 # Drivers
 #==========

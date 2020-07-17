@@ -4,6 +4,6 @@
 # Backup Utilities
 #=================
 
-cinst alldup
+# cinst alldup
 cinst freefilesync
 cinst ultrasearch

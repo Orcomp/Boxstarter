@@ -1,10 +1,12 @@
 # Boxstarter scripts
 
-This repository contains boxstarter scripts to help setup a dev environment on a new windows box.
+This repository contains [boxstarter](https://boxstarter.org/) scripts to help setup a dev environment on a new windows box.
 
 There is a two step process, some large installs like VS, SQL server etc.. are done manually.
 
 You can run the scripts multiple times. If a program is already installed it will just be skipped.
+
+The Windows configs can be found [here](https://boxstarter.org/WinConfig)
 
 ## Introduction
 
@@ -21,22 +23,20 @@ These notes and scripts were first started around 2014, and have gone through nu
     1. Manual: Install drivers (for new Windows installs)
     1. Boxstarter: **InstallSoftware.txt**
     1. Manual Installs
-       - [Rider](https://www.jetbrains.com/rider/) (Seriously good C# dev IDE)
-       - [VisualStudio - Preview](https://visualstudio.microsoft.com/vs/preview/) 
+      - [Rider](https://www.jetbrains.com/rider/) (Seriously good C# dev IDE. Install from Toolbox)
+        - [DotTrace](https://www.jetbrains.com/profiler/)(Install from Toolbox as well)
+      - [VisualStudio - Preview](https://visualstudio.microsoft.com/vs/preview/) 
         - NOTE: See VisualStudio_Rider_Setup.md file, to setup Rider and VS
-       - MS Office (Through office365)
-       - [.Net Core preview](https://dotnet.microsoft.com/download/dotnet-core/3.0)
-       - [OneDrive](https://onedrive.live.com/about/en-au/download/)
-       - [Fences](https://www.stardock.com/products/fences/)
-       - [GitKraken](https://www.gitkraken.com/git-client) (git client)
-       - [Directory Opus](https://www.gpsoft.com.au/)
-       - [bvckup2](https://bvckup2.com/)
-       - [Kindle](https://www.amazon.com/kindle-dbs/fd/kcp)
-       - [Draw.io](https://about.draw.io)
-       - [WordWeb](https://wordweb.info)
-       - [Greenshot](https://github.com/greenshot/greenshot/releases)
-       - [Mouse without borders](https://www.microsoft.com/en-us/garage/profiles/mouse-without-borders/)(Virtual KVM)
-       - [Razer Synapse](https://www.razer.com/synapse)
+      - MS Office (Through office365)
+      - [OneDrive](https://onedrive.live.com/about/en-au/download/)
+      - [GitKraken](https://www.gitkraken.com/git-client) (git client)
+      - [bvckup2](https://bvckup2.com/)
+      - [WordWeb](https://wordweb.info)(Pro version)
+      - [Greenshot](https://github.com/greenshot/greenshot/releases)(Latest release from Github)
+      - [Obsidian](https://obsidian.md/)
+      - [Zettlr](https://www.zettlr.com/)
+      - [AsciiDoctor](https://asciidoctor.org/)
+      - [splashtop](https://www.splashtop.com/) (Server and client)
     1. Boxstarter: **PostInstall.txt**
     1. Boxstarter: **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Manual: Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
@@ -48,12 +48,9 @@ Most of the programs are available for free.
 
 Product keys are available from: https://my.visualstudio.com/productkeys
 
-Licenses and settings are available here: https://github.com/Orcomp/Licenses-and-settings
+Licenses and settings are available here: https://github.com/Orcomp/Licenses-and-settings (which is private ;-)
 
 ## Post Install - Configurations
-
-- Make Notepad2-mod the default text editor: http://www.flos-freeware.ch/doc/notepad2-Replacement.html
-  (This will happen automatically after running the Boxstarter scripts)
 
 - Files and Folder:
   - [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
@@ -88,8 +85,9 @@ Make sure power plan is on ultimate or performance
 - Toby
 - Session Buddy
 - Octotree
-- todoist
+- Todoist
 - EasyReader
+- Polar (PDF reader)
 
 **Keep an eye on:**
 
@@ -118,7 +116,7 @@ Since the OS will be going on a SSD drive no need to partition.
 
 ## Paid software
 
-I generally try and use free or open source software as much as possible. So when I pay for something it is generally really worth it.
+I generally try and use free or open source software as much as possible. So when I pay for something it has to be worth it.
 
 - [Directory Opus](https://www.gpsoft.com.au/)
 - [bvckup2](https://bvckup2.com/)
@@ -126,6 +124,7 @@ I generally try and use free or open source software as much as possible. So whe
 - [WordWeb](https://wordweb.info)
 - [Fork - git](https://git-fork.com/)
 - [Duplicate Cleaner Pro](https://www.duplicatecleaner.com/)
+- [Obsidian](https://obsidian.md/)
 
 ## Notes
 
@@ -134,6 +133,14 @@ I generally try and use free or open source software as much as possible. So whe
 - Visual Studio extensions: https://stackoverflow.com/questions/22154485/getting-a-list-of-installed-extensions-and-packages-in-visual-studio-2013
 - Chrome Extensions: type in "chrome://system" then click on the expand extensions button
 - DirectoryOpus settings (Opus has a great wizard to save and restore settings)
+
+### C# Scripting
+
+Looks like dotnet-script is the best current solution with full support in VS Code.
+The file extension is ".csx".
+
+- [Guide](https://galdin.dev/blog/csharp-scripts-using-dotnet-script/)
+- [dotnet-script](https://github.com/filipw/dotnet-script)
 
 ## Applications that could come in handy
 
@@ -148,7 +155,7 @@ Install from Chocolatey where possible.
 - [ImgBurn](http://www.imgburn.com/)
 - [Rosyln pad](https://roslynpad.net/)
 - [Cmder](http://cmder.net/)
-- [HWmonitor](https://www.hwinfo.com) (Monitor hardware sensors):
+- [HWmonitor](https://www.hwinfo.com): Monitor hardware sensors
 - [One Commander](http://onecommander.com)
 - [gMaster](https://www.gmaster.io) (git manager)
 - [Mind Map](https://github.com/raydac/netbeans-mmd-plugin)
@@ -157,6 +164,12 @@ Install from Chocolatey where possible.
 - [EaseUS - Backup](https://www.easeus.com/backup-software/tb-free.html)
 - [EaseUS - Partition](https://www.easeus.com/partition-manager/epm-free.html)
 - [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
+- [WinSnap](https://www.ntwind.com/software/winsnap.html): Screen capture with annotation
+- [Lepton](https://github.com/hackjutsu/Lepton)
+- [perfview](https://github.com/microsoft/perfview): Performance profiler
+- [Outline](https://www.getoutline.com/)
+- [Screenshot Captor](https://www.donationcoder.com/software/mouser/popular-apps/screenshot-captor)
+- [Julia](https://julialang.org/)
 
 ## Backup utilities
 
@@ -254,9 +267,9 @@ Install:
 
 - Drivers: https://www.dell.com/support/home/au/en/aubsd1/product-support/product/xps-8930-desktop/drivers
 - SupportAssist
-- Intel Toolbox (includes drivers for Optane 900P)
+- Intel Toolbox (includes drivers for Optane 900P) (Installed by Chocolatey)
 - Intel Rapid Storage
-- Samsung Magician
+- Samsung Magician (Installed by Chocolatey)
 
 ### Other Settings
 
@@ -278,6 +291,7 @@ Then we need to format the new partition in order for Windows to see it in Explo
 #### Windows 10
 
 - Device Encryption : Turn Off (Turn off bitlocker on Windows 10 Pro or above)
+- Disable reboot after updates: https://www.minitool.com/news/prevent-windows-update-from-automatically-restarting-your-pc.html
 
 #### NAS Setup (LACIE-2Big)
 
@@ -296,3 +310,5 @@ This can be very tricky. After a lot of research follow these steps:
 - Search for MF 4350d here https://www.usa.canon.com/internet/portal/us/home
 - Install the drivers and patch then reboot.
 - Then install the Toolbox software. Make changes to the software to always run as admin. Follow the instructions here: https://community.usa.canon.com/t5/Office-Printers/MF-toolbox-can-t-find-scanner/td-p/223042
+
+- Install Kyocera drivers

@@ -6,8 +6,8 @@ All these programs will be installed by chocolatey.
 - [UltraSearch](https://www.jam-software.com/ultrasearch/)
 - [FreeFileSync](https://freefilesync.org/)
 - [AllDup](http://www.alldup.de/alldup_help/alldup.php)
-- TreeSize free
-- DirectoryOpus
+- [TreeSize free]9https://www.jam-software.com/treesize_free0
+- [DirectoryOpus](https://www.gpsoft.com.au/)
 
 ## Strategy
 
