@@ -5,6 +5,8 @@ See the Settings folder for the latest Rider and VS settings.
 
 ### Settings
 
+Settings are saved in "C:\Source\License and settings\VisualStudio"
+
 Open the "Tools > Options" window and search for the following key words:
 
 - "Diagnostic tools" Debugging = disable
@@ -18,6 +20,8 @@ Look for the following categories:
 - Debugging > General > Enable Just My Code = disable
 - Debugging > General > Enable source server support = enable
 - Text Editor > General > Show Structure guide lines = disable (we will use Indent Guides extension instead.)
+
+More info can be found [here](https://docs.microsoft.com/en-us/visualstudio/ide/synchronized-settings-in-visual-studio?view=vs-2019).
 
 ### Add Nuget Package sources
 
@@ -36,7 +40,7 @@ Don't really need Resharper when using VS-Preview with these extensions:
 - [Region Expander](https://marketplace.visualstudio.com/items?itemName=DavidPerfors.RegionExpander)
 - [CodeNav](https://marketplace.visualstudio.com/items?itemName=SamirBoulema.CodeNav)
 - [Output Enhancer](https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer)
-- [Trailing White Space](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
+- [Trailing Whitespace Visualizer](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
 - [Word Highlight With Margin](https://marketplace.visualstudio.com/items?itemName=TrungKienPhan.WordHighlight-18439)
 
 #### Testing:
@@ -65,6 +69,10 @@ Don't really need Resharper when using VS-Preview with these extensions:
 
 Has a lot of good stuff already backed in. Don't need nearly as many plugins or extensions.
 
+Settings [info](https://www.jetbrains.com/help/rider/Sharing_Your_IDE_Settings.html)
+
+Start Rider and go to "File > IDE Settings".
+
 ### Extensions
 
 - [Code Glance](https://plugins.jetbrains.com/plugin/7275-codeglance)
@@ -74,13 +82,28 @@ Has a lot of good stuff already backed in. Don't need nearly as many plugins or 
 ### Extensions
 
 Start with SettingsSync when installing extensions on a new VS Code instance.
+
+Information on updating and restoring settings can be found [here](http://shanalikhan.github.io/2015/12/15/Visual-Studio-Code-Sync-Settings.html). Will need to install "Settings Sync" extension first.
+
 The list of extensions here is for reference purposes:
 
-- SettingsSync
-- Beautify
-- Todo+
-- Code Spell Checker
-- GitLens
-- vscode-icons
-- C#
 - AsciiDoc
+- Beautify
+- C#
+- Cake
+- Code Spell Checker
+- Git History
+- GitLens
+- HTMLHint
+- Julia
+- LiveServer
+- PowerShell
+- Prettier
+- Rainbow CSV
+- Settings Sync
+- vscode-icons
+- Workspace Explorer
+
+### Extensions to keep an eye on
+
+- Todo+

@@ -37,6 +37,7 @@ These notes and scripts were first started around 2014, and have gone through nu
       - [Zettlr](https://www.zettlr.com/)
       - [AsciiDoctor](https://asciidoctor.org/)
       - [splashtop](https://www.splashtop.com/) (Server and client)
+      - Citrix Workspace
     1. Boxstarter: **PostInstall.txt**
     1. Boxstarter: **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Manual: Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
@@ -170,6 +171,7 @@ Install from Chocolatey where possible.
 - [Outline](https://www.getoutline.com/)
 - [Screenshot Captor](https://www.donationcoder.com/software/mouser/popular-apps/screenshot-captor)
 - [Julia](https://julialang.org/)
+- [MySQL Workbench](https://www.mysql.com/products/workbench/)
 
 ## Backup utilities
 
