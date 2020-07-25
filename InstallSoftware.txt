@@ -43,13 +43,14 @@ cinst treesizefree
 cinst ultrasearch
 cinst processhacker
 
-cinst itunes
+## cinst itunes
 cinst 7zip.install
 cinst directoryopus
 cinst razer-synapse-2
 cinst powertoys
 cinst rufus
 cinst zotero
+cinst bulk-crap-uninstaller
 
 # Dev tools
 #===========
@@ -75,11 +76,6 @@ cinst notepadplusplus.install
 
 cinst jetbrainstoolbox
 cinst git-fork
-
-# Dell
-#========
-
-cinst dellcommandupdate
 
 
 # Fix SSH-Agent error by adding the bin directory to the `Path` environment variable

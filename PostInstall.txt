@@ -30,3 +30,5 @@ cinst poshgit
 # http://www.intel.com/p/en_US/support/detect
 
 # NOTE: Run windows update again
+
+Enable-UAC

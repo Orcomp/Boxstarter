@@ -6,57 +6,86 @@ There is a two step process, some large installs like VS, SQL server etc.. are d
 
 You can run the scripts multiple times. If a program is already installed it will just be skipped.
 
-The Windows configs can be found [here](https://boxstarter.org/WinConfig)
+The Windows configs for Boxstarter can be found [here](https://boxstarter.org/WinConfig)
 
 ## Introduction
 
-Every time I do a clean Windows install I update the scripts and notes to make the next clean install easier and faster.
+Every time I do a clean Windows install I update the scripts and notes on this page, in order to make the next clean install easier and faster.
 The goal is to setup a productive .NET dev environment as quickly as possible by only installing the bare minimum. 
 
 These notes and scripts were first started around 2014, and have gone through numerous revisions.
 
+## Pre-Install
+
+- Backup the following folders (Do this after a fresh reboot, before opening any apps):
+  - %USERPROFILE%
+  - C:\Source (Check all repositories have been committed and pushed. Clean repositories [first](https://github.com/CatenaLogic/RepositoryCleaner))
+- Save Chrome settings
+- Save browser sessions (active tabs)
+- Take screenshot of desktop
+- Get latest Windows ISO and burn on disc. (See Re-Install Windows section below. Use "Create Windows 10 installation media").
+- Pre-download necessary drivers (Chocolatey will install the "Dell command update", which is all we need).
+- Keep Windows Enterprise license handy
+
+## Install
+
 - The boxstarter list only contains software I use regularly.
-- The boxstarter links to use in IE are found at the top of each file.
+- The boxstarter links to use in IE (or Edge) are found at the top of each file.
 - The order in which the files should be run are:
+
     1. Manual: Update BIOS (for new Windows installs)
     1. Boxstarter: **UpdateWindows.txt** (Run this just after installing windows.)
-    1. Manual: Install drivers (for new Windows installs)
+    1. Manual: Install drivers (for new Windows installs) using Dell Command update
     1. Boxstarter: **InstallSoftware.txt**
-    1. Manual Installs
-      - [Rider](https://www.jetbrains.com/rider/) (Seriously good C# dev IDE. Install from Toolbox)
-        - [DotTrace](https://www.jetbrains.com/profiler/)(Install from Toolbox as well)
-      - [VisualStudio - Preview](https://visualstudio.microsoft.com/vs/preview/) 
-        - NOTE: See VisualStudio_Rider_Setup.md file, to setup Rider and VS
-      - MS Office (Through office365)
-      - [OneDrive](https://onedrive.live.com/about/en-au/download/)
-      - [GitKraken](https://www.gitkraken.com/git-client) (git client)
-      - [bvckup2](https://bvckup2.com/)
-      - [WordWeb](https://wordweb.info)(Pro version)
-      - [Greenshot](https://github.com/greenshot/greenshot/releases)(Latest release from Github)
-      - [Obsidian](https://obsidian.md/)
-      - [Zettlr](https://www.zettlr.com/)
-      - [AsciiDoctor](https://asciidoctor.org/)
-      - [splashtop](https://www.splashtop.com/) (Server and client)
-      - Citrix Workspace
+    1. Manual Installs:
+       - [Rider](https://www.jetbrains.com/rider/) (Seriously good C# dev IDE. Install from Toolbox)
+         - [DotTrace](https://www.jetbrains.com/profiler/) (Install from Toolbox as well)
+       - [VisualStudio - Preview](https://visualstudio.microsoft.com/vs/preview/) 
+         - NOTE: See VisualStudio_Rider_Setup.md file, to setup Rider and VS
+       - MS Office (Through office365)  
+       - [OneDrive](https://onedrive.live.com/about/en-au/download/)
+       - [bvckup2](https://bvckup2.com/)
+       - [WordWeb](https://wordweb.info) (Pro version)
+       - [Greenshot](https://github.com/greenshot/greenshot/releases) (Latest release from Github)
+       - [Obsidian](https://obsidian.md/)
+       - [Zettlr](https://www.zettlr.com/)
+       - [AsciiDoctor](https://asciidoctor.org/)
+       - [splashtop](https://www.splashtop.com/) (Server and client)
+       - [Ceasium](https://saerasoft.com/caesium/)
+       - Citrix Workspace
     1. Boxstarter: **PostInstall.txt**
     1. Boxstarter: **UpdateWindows.txt** (Run windows update again.)
     1. (Optional) Manual: Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
-    1. Manual: Run [Simple System Tweaker](http://www.tweaking.com/content/page/simple_system_tweaker.html)
 
-**NOTE:** Whenever you need a program check [Chocolatey](http://chocolatey.org/) first. It is the best place to discover the most used programs by developers for any category.
+**NOTE:** Whenever you need a program check [Chocolatey](https://chocolatey.org/packages) first. It is the best place to discover the most used programs by developers for any category.
+
+Also check [FossHub](https://www.fosshub.com/).
 
 Most of the programs are available for free.
 
 Product keys are available from: https://my.visualstudio.com/productkeys
 
-Licenses and settings are available here: https://github.com/Orcomp/Licenses-and-settings (which is private ;-)
+Licenses and settings are available here: https://github.com/Orcomp/Licenses-and-settings (which is private ;-). Check the FolderStructure.md file to re-establish the right folder structure for various programs.
 
 ## Post Install - Configurations
 
 - Files and Folder:
   - [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
 
+  - Set another text editor as default (instead of notepad): https://www.winhelponline.com/blog/replace-notepad-text-editor-notepad-plus-association
+
 ### Windows
+
+#### Scripts
+
+- Run PowerShell scripts from C:\Source\Win10-Initial-Setup-Script (https://github.com/Disassembler0/Win10-Initial-Setup-Script), using "My.preset" options.
+
+- Other simple GUI tools to consider ([Beware](https://www.mirinsoft.com/blog/19-apps/34-stable-release-of-new-spydish-app-is-out) see comment section):
+  - [SpyDish](https://github.com/builtbybel/spydish)
+  - [BloatBox](https://github.com/builtbybel/bloatbox)
+
+  Another script: https://github.com/Sycnex/Windows10Debloater
+
 
 #### Setup Date Time, Region, Language properly
 
@@ -64,14 +93,7 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 
 #### Icons
 
-- Right click on desktop and change the icons to small
-
-#### Disable search indexing
-
-- Run Services.msc
-- Find " Windows Search", double click on the entry
-- Set Startup Type to "Disabled"
-- Reboot
+- Right click on desktop and change the icons to small (Should be set by PowerShell script).
 
 #### Power Plan
 
@@ -80,15 +102,21 @@ Make sure power plan is on ultimate or performance
 #### Disable auto restart on scheduled updates
 
 - https://www.makeuseof.com/tag/disable-forced-restarts-windows-update/
+- Disable reboot after updates: https://www.minitool.com/news/prevent-windows-update-from-automatically-restarting-your-pc.html
+
+#### Disable Encryption
+
+- Device Encryption : Turn Off (Turn off bitlocker on Windows 10 Pro or above)
 
 #### Extensions
 
-- Toby
-- Session Buddy
-- Octotree
-- Todoist
-- EasyReader
-- Polar (PDF reader)
+Chrome (Should be synced to Google account):
+  - Toby
+  - Session Buddy
+  - Octotree
+  - Todoist
+  - EasyReader
+  - Polar (PDF reader)
 
 **Keep an eye on:**
 
@@ -97,7 +125,7 @@ Make sure power plan is on ultimate or performance
 
 ### Antivirus
 
-The default anti virus that comes with Windows is good enough if you surf the web sensibly.
+The default anti virus that comes with Windows is good enough.
 
 In WindowsDefender add the following exclusions:
 
@@ -126,12 +154,13 @@ I generally try and use free or open source software as much as possible. So whe
 - [Fork - git](https://git-fork.com/)
 - [Duplicate Cleaner Pro](https://www.duplicatecleaner.com/)
 - [Obsidian](https://obsidian.md/)
+- [GitKraken](https://www.gitkraken.com/git-client) (git client)
 
 ## Notes
 
 - Markdown: Use VSCode with some markdown extensions
 - VSCode extensions: https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list
-- Visual Studio extensions: https://stackoverflow.com/questions/22154485/getting-a-list-of-installed-extensions-and-packages-in-visual-studio-2013
+- Visual Studio extensions: Sync to account
 - Chrome Extensions: type in "chrome://system" then click on the expand extensions button
 - DirectoryOpus settings (Opus has a great wizard to save and restore settings)
 
@@ -172,15 +201,22 @@ Install from Chocolatey where possible.
 - [Screenshot Captor](https://www.donationcoder.com/software/mouser/popular-apps/screenshot-captor)
 - [Julia](https://julialang.org/)
 - [MySQL Workbench](https://www.mysql.com/products/workbench/)
+- [Diagram Designer](http://meesoft.logicnet.dk/DiagramDesigner/)
+- [TPX](https://sourceforge.net/projects/tpx/) (On [Github](https://github.com/krystophny/tpx))
+- [VisiPics](http://www.visipics.info/index.php?title=Main_Page)(Find duplicate pictures)
+- [CudaText](http://uvviewsoft.com/cudatext/)
 
 ## Backup utilities
 
-See InstallExtraSoftware.txt:
+The following programs are already installed in InstallExtraSoftware.txt:
 
-- [UltraSearch](https://www.jam-software.com/ultrasearch/) already installed in InstallSoftware.txt script
+- [UltraSearch](https://www.jam-software.com/ultrasearch/)
 - [FreeFileSync](https://freefilesync.org/)
-- [AllDup](http://www.alldup.de/alldup_help/alldup.php)
-- TreeSize free is already installed in InstallSoftware.txt script
+- [TreeSize free](https://www.jam-software.com/treesize_free)
+
+Install manually:
+
+- [Duplicate Cleaner Pro](https://www.duplicatecleaner.com/)
 
 ## Guides
 
@@ -206,7 +242,7 @@ A lot easier than I initially thought.
 - Select the USB stick option and continue. (Yes it is that simple...)
 - Go though the installation process. At some stage you will need to repartition the hard drive. Delete all the partitions so that only one line is left and then click "Next". (i.e. do not click on "New").
 - Once Windows 10 is installed you will have to install the drivers.
-- You only need to download and install the "Dell Command | Update" package to install all the drivers, from the Dell support page. After installing it, reboot the computer and run it.
+- Run the "UpdateWindows.txt" script, which will also install the "Dell Command | Update" application. Use this to install all the drivers, from the Dell support page. After installing drivers reboot the computer.
 
 #### Fan issue
 
@@ -218,7 +254,6 @@ A lot easier than I initially thought.
 Here are other solutions I found online while doing this research. I haven't tried them yet. (Haven't had to...)
 
 - Install "Dell Power Manager" from the windows store: Set to quiet
-
 - https://www.dell.com/community/XPS/XPS-9370-Fan-Noise/td-p/5803616/page/17
 - https://communities.intel.com/thread/115794
 - https://www.reddit.com/r/Dell/comments/5y3rii/xps_9560_battery_life_optimization_and_fan/
@@ -290,11 +325,6 @@ This is easy to do when following these steps:
 
 Then we need to format the new partition in order for Windows to see it in Explorer.
 
-#### Windows 10
-
-- Device Encryption : Turn Off (Turn off bitlocker on Windows 10 Pro or above)
-- Disable reboot after updates: https://www.minitool.com/news/prevent-windows-update-from-automatically-restarting-your-pc.html
-
 #### NAS Setup (LACIE-2Big)
 
 Make sure to create a user account on the NAS that has exactly the same username and password as the windows (workstation) login.
@@ -313,4 +343,12 @@ This can be very tricky. After a lot of research follow these steps:
 - Install the drivers and patch then reboot.
 - Then install the Toolbox software. Make changes to the software to always run as admin. Follow the instructions here: https://community.usa.canon.com/t5/Office-Printers/MF-toolbox-can-t-find-scanner/td-p/223042
 
+
+Kyocera: 
 - Install Kyocera drivers
+
+### Software Installation Guides
+
+#### Zotero
+
+- https://www.nrel.colostate.edu/set-up-best-reference-manager/

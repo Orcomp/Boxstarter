@@ -4,6 +4,8 @@
 # Initial Windows Config (http://boxstarter.org/WinConfig)
 #========================
 
+Disable-UAC
+
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -AcceptEula
 Update-ExecutionPolicy Unrestricted
@@ -18,7 +20,9 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 # Set-TaskbarOptions -Size Small -Lock -Dock Bottom
 
 Enable-RemoteDesktop
-
 Disable-BingSearch
-
 Disable-GameBarTips
+
+# We can update all the drivers from here
+
+cinst dellcommandupdate
