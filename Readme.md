@@ -23,7 +23,7 @@ These notes and scripts were first started around 2014, and have gone through nu
 - Save Chrome settings
 - Save browser sessions (active tabs)
 - Take screenshot of desktop
-- Get latest Windows ISO and burn on disc. (See Re-Install Windows section below. Use "Create Windows 10 installation media").
+- Get latest Windows ISO and burn on disc. (See Re-Install Windows section below. Use "Create Windows 10 installation media". This can take several hours!).
 - Pre-download necessary drivers (Chocolatey will install the "Dell command update", which is all we need).
 - Keep Windows Enterprise license handy
 
