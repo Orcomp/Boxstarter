@@ -127,17 +127,16 @@ Chrome (Should be synced to Google account):
 
 The default anti virus that comes with Windows is good enough.
 
-In WindowsDefender add the following exclusions:
+Configure Defender from PowerShell. See the [docs](https://docs.microsoft.com/en-us/powershell/module/defender/?view=win10-ps).
 
-- Folder: "C:\Source" folder to the exclusion
-- Process: C:\Program Files (x86)\Microsoft Visual Studio\*
-- Process: C:\Program Files\Bvckup 2\*
-- Process: C:\Program Files\GPSoftware\Directory Opus\*
+Some more useful [docs](https://www.reddit.com/r/Windows10/comments/5gf38v/when_excluding_a_process_in_windows_defender_do_i/) and [here](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/configure-extension-file-exclusions-windows-defender-antivirus)
 
-![WindowsDefenderExclusions1](images/WindowsDefenderExclusions.png)
-![WindowsDefenderExclusions2](images/ExcludeFromDefender.png)
+Run as admin (Copy and paste into PowerShell)
+```
+Add-MpPreference -ExclusionPath 'C:\Source', 'C:\Users\Ben\.nuget', 'C:\Users\Ben\AppData\Roaming\WildGums', 'I:\', 'K:\'
 
-Read: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/configure-extension-file-exclusions-windows-defender-antivirus
+Add-MpPreference -ExclusionProcess 'C:\Program Files\Bvckup 2\*', 'C:\Program Files (x86)\Microsoft Visual Studio\*', 'C:\Program Files (x86)\Splashtop\*', 'C:\Program Files\FreeFileSync\Bin\*', 'C:\Program Files\GPSoftware\Directory Opus\*', 'C:\Software\Infosoft\Bodhi6\*', 'C:\Program Files (x86)\Duplicate Cleaner Pro\*'
+```
 
 ### Partitions
 
