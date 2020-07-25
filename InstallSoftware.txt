@@ -41,7 +41,7 @@ cinst intel.ssd.toolbox
 cinst microsoft-teams
 cinst treesizefree
 cinst ultrasearch
-cinst processhacker
+# cinst processhacker
 
 ## cinst itunes
 cinst 7zip.install
@@ -56,6 +56,7 @@ cinst bulk-crap-uninstaller
 #===========
 
 cinst PowerShell
+cinst sysinternals
 
 # Git will install credentials manager as well
 # https://github.com/Microsoft/Git-Credential-Manager-for-Windows/

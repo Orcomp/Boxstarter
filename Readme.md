@@ -71,8 +71,8 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 
 - Files and Folder:
   - [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
-
-  - Set another text editor as default (instead of notepad): https://www.winhelponline.com/blog/replace-notepad-text-editor-notepad-plus-association
+- Set another text editor as default (instead of notepad): https://www.winhelponline.com/blog/replace-notepad-text-editor-notepad-plus-association
+- Run Sysinternals Autoruns to manage programs that are allowed to startup on their own.
 
 ### Windows
 
