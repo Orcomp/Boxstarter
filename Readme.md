@@ -38,6 +38,7 @@ These notes and scripts were first started around 2014, and have gone through nu
     1. Manual: Update BIOS (for new Windows installs)
     1. Boxstarter: **UpdateWindows.txt** (Run this just after installing windows.)
     1. Manual: Install drivers (for new Windows installs) using Dell Command update
+    1. Manual: Run PowerShell Scripts to set correct settings for Win10 (See section below)
     1. Boxstarter: **InstallSoftware.txt**
     1. Manual Installs:
        - [Rider](https://www.jetbrains.com/rider/) (Seriously good C# dev IDE. Install from Toolbox)
@@ -75,7 +76,7 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
   - [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
 - Set another text editor as default (instead of notepad): https://www.winhelponline.com/blog/replace-notepad-text-editor-notepad-plus-association
 - Run Sysinternals Autoruns to manage programs that are allowed to startup on their own.
-- Make sure Drives have the right name
+- Make sure Drives have the right name. (Run "Disk Management" from the command line.)
 
 ### Windows
 
@@ -87,8 +88,7 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
   - [SpyDish](https://github.com/builtbybel/spydish)
   - [BloatBox](https://github.com/builtbybel/bloatbox)
 
-  Another script: https://github.com/Sycnex/Windows10Debloater
-
+Another script: https://github.com/Sycnex/Windows10Debloater
 
 #### Setup Date Time, Region, Language properly
 

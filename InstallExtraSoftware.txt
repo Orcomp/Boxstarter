@@ -5,5 +5,3 @@
 #=================
 
 # cinst alldup
-cinst freefilesync
-cinst ultrasearch

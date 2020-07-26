@@ -34,6 +34,7 @@ cinst drawio
 cinst mousewithoutborders
 cinst samsung-magician
 cinst intel.ssd.toolbox
+cinst cudatext
 
 # cinst putty.install
 # cinst screentogif
@@ -41,6 +42,7 @@ cinst intel.ssd.toolbox
 cinst microsoft-teams
 cinst treesizefree
 cinst ultrasearch
+cinst freefilesync
 # cinst processhacker
 
 ## cinst itunes
@@ -55,7 +57,6 @@ cinst bulk-crap-uninstaller
 # Dev tools
 #===========
 
-cinst PowerShell
 cinst sysinternals
 
 # Git will install credentials manager as well
@@ -75,7 +76,7 @@ cinst ruby
 
 cinst notepadplusplus.install
 
-cinst jetbrainstoolbox
+# cinst jetbrainstoolbox # Install Manually. Does not work
 cinst git-fork
 
 

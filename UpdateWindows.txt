@@ -23,6 +23,8 @@ Enable-RemoteDesktop
 Disable-BingSearch
 Disable-GameBarTips
 
+cinst PowerShell
+
 # We can update all the drivers from here
 
 cinst dellcommandupdate
