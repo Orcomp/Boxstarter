@@ -15,6 +15,8 @@ The goal is to setup a productive .NET dev environment as quickly as possible by
 
 These notes and scripts were first started around 2014, and have gone through numerous revisions.
 
+- Settings and licenses are stored in "C:\Source\Licenses and Settings" 
+
 ## Pre-Install
 
 - Backup the following folders (Do this after a fresh reboot, before opening any apps):
@@ -73,6 +75,7 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
   - [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
 - Set another text editor as default (instead of notepad): https://www.winhelponline.com/blog/replace-notepad-text-editor-notepad-plus-association
 - Run Sysinternals Autoruns to manage programs that are allowed to startup on their own.
+- Make sure Drives have the right name
 
 ### Windows
 
