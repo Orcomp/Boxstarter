@@ -5,7 +5,7 @@ This repository contains [boxstarter](https://boxstarter.org/) scripts to help s
 There is a two step process, some large installs like VS, SQL server etc.. are done manually.
 
 You can run the scripts multiple times. If a program is already installed it will just be skipped.
-
+ 
 The Windows configs for Boxstarter can be found [here](https://boxstarter.org/WinConfig)
 
 ## Introduction
@@ -28,6 +28,8 @@ These notes and scripts were first started around 2014, and have gone through nu
 - Get latest Windows ISO and burn on disc. (See Re-Install Windows section below. Use "Create Windows 10 installation media". This can take several hours!).
 - Pre-download necessary drivers (Chocolatey will install the "Dell command update", which is all we need).
 - Keep Windows Enterprise license handy
+- When re-installing windows delete and reformat the OS drive. (Figure this out first by typing "Disk management" at the command line).
+- Make sure to use the same Username to match LACIE backup server.
 
 ## Install
 
@@ -57,8 +59,7 @@ These notes and scripts were first started around 2014, and have gone through nu
        - [Ceasium](https://saerasoft.com/caesium/)
        - Citrix Workspace
     1. Boxstarter: **PostInstall.txt**
-    1. Boxstarter: **UpdateWindows.txt** (Run windows update again.)
-    1. (Optional) Manual: Run CCleaner and KCleaner to get rid of all the junk. (These are installed in the scripts above)
+    1. Manual: Run "Disk Cleaner" from the command line
 
 **NOTE:** Whenever you need a program check [Chocolatey](https://chocolatey.org/packages) first. It is the best place to discover the most used programs by developers for any category.
 
@@ -76,9 +77,12 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
   - [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
 - Set another text editor as default (instead of notepad): https://www.winhelponline.com/blog/replace-notepad-text-editor-notepad-plus-association
 - Run Sysinternals Autoruns to manage programs that are allowed to startup on their own.
-- Make sure Drives have the right name. (Run "Disk Management" from the command line.)
+- Make sure Drives have the right name. (Run "Disk Management" from the command line. See this [link](https://www.diskpart.com/articles/drive-letter-not-available-8523.html) for help)
+- Install Dropbox and point it to "I:\Dropbox"
 
 ### Windows
+
+- Enable "Night Light" settings
 
 #### Scripts
 
@@ -100,7 +104,8 @@ Another script: https://github.com/Sycnex/Windows10Debloater
 
 #### Power Plan
 
-Make sure power plan is on ultimate or performance
+- Make sure power plan is on ultimate or performance
+- Never sleep or hibernate
 
 #### Disable auto restart on scheduled updates
 

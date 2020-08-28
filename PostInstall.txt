@@ -4,13 +4,6 @@
 # Install manually
 #==================
 
-# [VisualStudio](https://visualstudio.microsoft.com/downloads/)
-# Office (Through office365)
-# [OneDrive](https://onedrive.live.com/about/en-au/download/)
-# [Fences](https://www.stardock.com/products/fences/)
-# [bvckup2](https://bvckup2.com/)
-
-# VS CodeContract Tools
 
 # Once VS is installed
 #=====================
@@ -18,17 +11,21 @@
 cinst poshgit
 
 
-# Install manually
-#==================
-
 # Others
 #========
+
 
 # Drivers
 #==========
 
-# http://www.intel.com/p/en_US/support/detect
 
-# NOTE: Run windows update again
+# Finalise
+#==========
+
+Disable-UAC
+
+Enable-MicrosoftUpdate
+Install-WindowsUpdate -AcceptEula
+Update-ExecutionPolicy Unrestricted
 
 Enable-UAC

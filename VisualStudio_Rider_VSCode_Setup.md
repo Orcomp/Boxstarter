@@ -3,6 +3,8 @@ See the Settings folder for the latest Rider and VS settings.
 
 ## Visual Studio
 
+- Make sure the .NET core SDK 3.1.103 is installed (https://dotnet.microsoft.com/download/dotnet-core/3.1).
+
 ### Settings
 
 Settings are saved in "C:\Source\License and settings\VisualStudio"
@@ -19,7 +21,6 @@ Look for the following categories:
 - Debugging > Symbols > Cache symbols in this directory = C:\Source\_symbols
 - Debugging > General > Enable Just My Code = disable
 - Debugging > General > Enable source server support = enable
-- Text Editor > General > Show Structure guide lines = disable (we will use Indent Guides extension instead.)
 
 More info can be found [here](https://docs.microsoft.com/en-us/visualstudio/ide/synchronized-settings-in-visual-studio?view=vs-2019).
 
@@ -27,6 +28,7 @@ More info can be found [here](https://docs.microsoft.com/en-us/visualstudio/ide/
 
 - Copy NuGet.Config file from %appdata%\NuGet
 - When restoring packages for the first time disable the NuGet source and use MyGet. Once all the Orc.* libraries have been restored then enable NuGet source and re-build solution.
+- Also need to make sure feedz.io has a token (https://feedz.io/docs/downloading/nuget.exe). Generally VS will ask for the credentials automatically.
 
 ### Extensions
 
