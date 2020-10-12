@@ -84,6 +84,7 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 ### Windows
 
 - Enable "Night Light" settings
+- Make sure "Hardware-accelerated GPU scheduling" is turned on in "Display settings > Graphics Settings (bottom of the page) > Hardware-accelerated GPU scheduling = true"
 
 #### Scripts
 
