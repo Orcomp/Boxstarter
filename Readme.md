@@ -58,6 +58,7 @@ These notes and scripts were first started around 2014, and have gone through nu
        - [splashtop](https://www.splashtop.com/) (Server and client)
        - [Ceasium](https://saerasoft.com/caesium/)
        - Citrix Workspace
+       - [LinqPad](https://www.linqpad.net/)
     1. Boxstarter: **PostInstall.txt**
     1. Manual: Run "Disk Cleaner" from the command line
 
@@ -92,7 +93,10 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
   - [SpyDish](https://github.com/builtbybel/spydish)
   - [BloatBox](https://github.com/builtbybel/bloatbox)
 
-Another script: https://github.com/Sycnex/Windows10Debloater
+Another scripts:
+
+- https://github.com/Sycnex/Windows10Debloater
+- https://github.com/gordonbay/Windows-On-Reins
 
 #### Setup Date Time, Region, Language properly
 
@@ -143,7 +147,7 @@ Run as admin (Copy and paste into PowerShell)
 ```
 Add-MpPreference -ExclusionPath 'C:\Source', 'C:\Users\Ben\.nuget', 'C:\Users\Ben\AppData\Roaming\WildGums', 'I:\', 'K:\'
 
-Add-MpPreference -ExclusionProcess 'C:\Program Files\Bvckup 2\*', 'C:\Program Files (x86)\Microsoft Visual Studio\*', 'C:\Program Files (x86)\Splashtop\*', 'C:\Program Files\FreeFileSync\Bin\*', 'C:\Program Files\GPSoftware\Directory Opus\*', 'C:\Software\Infosoft\Bodhi6\*', 'C:\Program Files (x86)\Duplicate Cleaner Pro\*'
+Add-MpPreference -ExclusionProcess 'C:\Program Files\Bvckup 2\*', 'C:\Program Files (x86)\Microsoft Visual Studio\*', 'C:\Program Files (x86)\Splashtop\*', 'C:\Program Files\FreeFileSync\Bin\*', 'C:\Program Files\GPSoftware\Directory Opus\*', 'C:\Software\Infosoft\Bodhi6\*', 'C:\Program Files (x86)\Duplicate Cleaner Pro\*', 'C:\Program Files\Microsoft VS Code\*', 'C:\Users\Ben\AppData\Local\Fork\*'
 ```
 
 ### Partitions
