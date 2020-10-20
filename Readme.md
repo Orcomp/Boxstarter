@@ -85,6 +85,7 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 
 - Enable "Night Light" settings
 - Make sure "Hardware-accelerated GPU scheduling" is turned on in "Display settings > Graphics Settings (bottom of the page) > Hardware-accelerated GPU scheduling = true"
+- Make sure HDD is not indexed and is not allowed to sleep (otherwise it causes windows to freeze every so often). Control Panel > Power Options, choose your preferred plan > Change Advanced power settings > Hard Disk > Turn off hard disk after .... and set it to "never".
 
 #### Scripts
 
