@@ -174,7 +174,13 @@ I generally try and use free or open source software as much as possible. So whe
 - Markdown: Use VSCode with some markdown extensions
 - VSCode extensions: https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list
 - Visual Studio extensions: Sync to account
-- Chrome Extensions: type in "chrome://system" then click on the expand extensions button
+- Chrome Extensions: type in "chrome://system" then click on the expand extensions button (Google should remember the extensions as they are saved to my Google account.)
+  - Session Buddy
+  - Toby
+  - Todoist
+  - Octotree
+  - EasyReader
+  - Paperpile
 - DirectoryOpus settings (Opus has a great wizard to save and restore settings)
 
 ### C# Scripting
