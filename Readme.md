@@ -89,6 +89,8 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 
 #### Scripts
 
+- Read this first: https://christitus.com/debloat-windows-10-2020/ (Chris continually keeps this up to date.)
+
 - Run PowerShell scripts from C:\Source\Win10-Initial-Setup-Script (https://github.com/Disassembler0/Win10-Initial-Setup-Script), using "My.preset" options.
 
 - Other simple GUI tools to consider ([Beware](https://www.mirinsoft.com/blog/19-apps/34-stable-release-of-new-spydish-app-is-out) see comment section):
@@ -97,8 +99,19 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 
 Another scripts:
 
+- https://github.com/farag2/Windows-10-Sophia-Script
 - https://github.com/Sycnex/Windows10Debloater
 - https://github.com/gordonbay/Windows-On-Reins
+
+#### Settings
+
+- Settings > Search > Searching Windows > disable
+- Might need to disable this on all HDDs directly as well. (Right click on the HDD drive, Properties, disable indexing)
+- Notifications and actions > disable all notifications
+
+#### Teams
+
+- Settings > Disable hardware acceleration. (Causes images to jitter) 
 
 #### Setup Date Time, Region, Language properly
 
