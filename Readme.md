@@ -100,6 +100,7 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 Another scripts:
 
 - https://github.com/farag2/Windows-10-Sophia-Script
+- https://github.com/ChrisTitusTech/win10script
 - https://github.com/Sycnex/Windows10Debloater
 - https://github.com/gordonbay/Windows-On-Reins
 
