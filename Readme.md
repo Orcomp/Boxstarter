@@ -277,6 +277,10 @@ A lot easier than I initially thought.
 - Once Windows 10 is installed you will have to install the drivers.
 - Run the "UpdateWindows.txt" script, which will also install the "Dell Command | Update" application. Use this to install all the drivers, from the Dell support page. After installing drivers reboot the computer.
 
+#### Color Saturation
+
+- Download "Dell Premiercolor" and go through the wizard.
+
 #### Fan issue
 
 - Only use CPU graphics (disable NVIDIA GPU using the "NVIDIA Control panel" application)
