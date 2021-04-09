@@ -103,6 +103,7 @@ Another scripts:
 - https://github.com/ChrisTitusTech/win10script
 - https://github.com/Sycnex/Windows10Debloater
 - https://github.com/gordonbay/Windows-On-Reins
+- https://github.com/hellzerg/optimizer
 
 #### Settings
 
