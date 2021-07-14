@@ -238,6 +238,7 @@ Install from Chocolatey where possible.
 - [TPX](https://sourceforge.net/projects/tpx/) (On [Github](https://github.com/krystophny/tpx))
 - [VisiPics](http://www.visipics.info/index.php?title=Main_Page)(Find duplicate pictures)
 - [CudaText](http://uvviewsoft.com/cudatext/)
+- [Bulk Crap Uninstaller](https://www.bcuninstaller.com/): https://github.com/Klocman/Bulk-Crap-Uninstaller
 
 ## Backup utilities
 
