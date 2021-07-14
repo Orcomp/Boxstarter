@@ -231,7 +231,6 @@ Install from Chocolatey where possible.
 - [Lepton](https://github.com/hackjutsu/Lepton)
 - [perfview](https://github.com/microsoft/perfview): Performance profiler
 - [Outline](https://www.getoutline.com/)
-- [Screenshot Captor](https://www.donationcoder.com/software/mouser/popular-apps/screenshot-captor)
 - [Julia](https://julialang.org/)
 - [MySQL Workbench](https://www.mysql.com/products/workbench/)
 - [Diagram Designer](http://meesoft.logicnet.dk/DiagramDesigner/)
