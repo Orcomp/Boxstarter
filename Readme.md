@@ -148,7 +148,7 @@ Chrome (Should be synced to Google account):
 
 **Keep an eye on:**
 
-- Tabli
+- [Tabli](https://github.com/antonycourtney/tabli)
 - Tidy Bookmark Tree
 
 ### Antivirus
@@ -236,8 +236,11 @@ Install from Chocolatey where possible.
 - [Diagram Designer](http://meesoft.logicnet.dk/DiagramDesigner/)
 - [TPX](https://sourceforge.net/projects/tpx/) (On [Github](https://github.com/krystophny/tpx))
 - [VisiPics](http://www.visipics.info/index.php?title=Main_Page)(Find duplicate pictures)
+  - [PhotoPrism](https://github.com/photoprism/photoprism)
 - [CudaText](http://uvviewsoft.com/cudatext/)
 - [Bulk Crap Uninstaller](https://www.bcuninstaller.com/): https://github.com/Klocman/Bulk-Crap-Uninstaller
+- [ImageGlass](https://imageglass.org): Really nice. Better than IrfanView
+- [Zulip](https://github.com/zulip/zulip): Team chat done right
 
 ## Backup utilities
 
