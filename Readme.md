@@ -244,6 +244,8 @@ Install from Chocolatey where possible.
 - [ImageGlass](https://imageglass.org): Really nice. Better than IrfanView
 - [Zulip](https://github.com/zulip/zulip): Team chat done right
 
+Check out https://github.com/Awesome-Windows/Awesome
+
 ## Backup utilities
 
 The following programs are already installed in InstallExtraSoftware.txt:
