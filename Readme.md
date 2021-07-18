@@ -103,6 +103,7 @@ Another scripts:
 - https://github.com/ChrisTitusTech/win10script
 - https://github.com/Sycnex/Windows10Debloater
 - https://github.com/gordonbay/Windows-On-Reins
+- https://github.com/hellzerg/optimizer
 
 #### Settings
 
@@ -210,6 +211,7 @@ The file extension is ".csx".
 Install from Chocolatey where possible.
 
 - [Duplicati](https://www.duplicati.com/)
+- [czkawka](https://github.com/qarmin/czkawka): Duplicate finder written in Rust
 - [KeeWeb](https://keeweb.info/)
 - [ILSpy](https://github.com/icsharpcode/ILSpy)
 - [Directory Monitor](https://www.deventerprise.com/)
