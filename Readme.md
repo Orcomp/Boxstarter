@@ -91,7 +91,7 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 
 - Read this first: https://christitus.com/debloat-windows-10-2020/ (Chris continually keeps this up to date.)
 
-- Run PowerShell scripts from C:\Source\Win10-Initial-Setup-Script (https://github.com/Disassembler0/Win10-Initial-Setup-Script), using "My.preset" options.
+- Run PowerShell scripts from C:\Source\Win10-Initial-Setup-Script (https://github.com/Disassembler0/Win10-Initial-Setup-Script), using "My.preset" options. (NOTE: No longer maintained...)
 
 - Other simple GUI tools to consider ([Beware](https://www.mirinsoft.com/blog/19-apps/34-stable-release-of-new-spydish-app-is-out) see comment section):
   - [SpyDish](https://github.com/builtbybel/spydish)
@@ -239,6 +239,7 @@ Install from Chocolatey where possible.
 - [TPX](https://sourceforge.net/projects/tpx/) (On [Github](https://github.com/krystophny/tpx))
 - [VisiPics](http://www.visipics.info/index.php?title=Main_Page)(Find duplicate pictures)
   - [PhotoPrism](https://github.com/photoprism/photoprism)
+  - [mylio](https://mylio.com/)
 - [CudaText](http://uvviewsoft.com/cudatext/)
 - [Bulk Crap Uninstaller](https://www.bcuninstaller.com/): https://github.com/Klocman/Bulk-Crap-Uninstaller
 - [ImageGlass](https://imageglass.org): Really nice. Better than IrfanView
