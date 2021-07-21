@@ -54,6 +54,8 @@ cinst rufus
 cinst zotero
 cinst bulk-crap-uninstaller
 
+cinst eartrumpet
+
 # Dev tools
 #===========
 
