@@ -1,0 +1,123 @@
+
+# No Reboot
+# http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/Orcomp/Boxstarter/master/2_InstallSoftware.txt
+
+# Runtimes
+#==========
+
+cinst dotnet-5.0-sdk
+cinst javaruntime
+cinst ruby # for Asciidoctor
+
+# Browsers
+#===========
+
+cinst googlechrome
+cinst firefox
+cinst microsoft-edge
+cinst vivaldi
+
+# General
+#=========
+
+# cinst greenshot (Install from github)
+# cinst f.lux (Microsoft Windows manages desktop lighting now)
+# cinst putty.install
+# cinst screentogif
+# cinst processhacker
+# cinst itunes
+# cinst rufus # Replaced by ventoy
+# cinst zotero
+# cinst autohotkey
+# cinst espanso # Install this instead of autohotkey when it is ready
+
+cinst vlc
+cinst keepass.install
+cinst FoxitReader
+cinst dropbox
+cinst paint.net
+cinst filezilla
+cinst stardock-fences
+cinst kindle
+cinst drawio
+cinst imageglass
+cinst bulk-crap-uninstaller
+cinst razer-synapse-2
+cinst protonvpn
+
+# Communication
+#===========
+
+cinst skype
+cinst telegram.install
+cinst zulip
+cinst signal
+
+# Utilities
+#===========
+
+cinst sysinternals
+cinst eartrumpet
+cinst powertoys
+cinst mousewithoutborders
+cinst ventoy
+
+# File Utilities
+#===========
+
+cinst treesizefree
+cinst ultrasearch
+cinst freefilesync
+cinst teracopy
+cinst 7zip.install
+cinst directoryopus
+
+# Work
+#===========
+
+cinst citrix-workspace
+cinst zoom
+cinst microsoft-teams
+
+# Markdown
+#===========
+
+cinst obsidian
+cinst zettlr
+
+# Text Editors
+#===========
+
+cinst micro
+cinst notepadplusplus.install
+cinst cudatext
+
+# Dev tools
+#===========
+
+# Git will install credentials manager as well
+# https://github.com/Microsoft/Git-Credential-Manager-for-Windows/
+cinst git.install
+
+cinst vscode
+cinst vscode-csharp
+cinst vscode-powershell
+cinst vscode-icons
+cinst vscode-gitlens
+cinst vscode-codespellchecker
+# cinst vscode-markdownlint
+
+cinst jetbrainstoolbox # Install Manually. Does not work
+cinst git-fork
+cinst snoop
+cinst kdiff3
+cinst linqpad
+cinst microsoft-windows-terminal
+cinst perfview
+
+# Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
+$env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin"
+
+# Tweaks
+#========
+

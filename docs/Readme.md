@@ -1,0 +1,1 @@
+Read Checklist_NewInstall.md first and follow directions. Everything stems from there.

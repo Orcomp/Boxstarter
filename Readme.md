@@ -13,23 +13,13 @@ The Windows configs for Boxstarter can be found [here](https://boxstarter.org/Wi
 Every time I do a clean Windows install I update the scripts and notes on this page, in order to make the next clean install easier and faster.
 The goal is to setup a productive .NET dev environment as quickly as possible by only installing the bare minimum. 
 
-These notes and scripts were first started around 2014, and have gone through numerous revisions.
+These notes and scripts were first started around 2014, and have gone through numerous revisions. (I typically re-install Windows every 6 months.)
 
 - Settings and licenses are stored in "C:\Source\Licenses and Settings" 
 
 ## Pre-Install
 
-- Backup the following folders (Do this after a fresh reboot, before opening any apps):
-  - %USERPROFILE%
-  - C:\Source (Check all repositories have been committed and pushed. Clean repositories [first](https://github.com/CatenaLogic/RepositoryCleaner))
-- Save Chrome settings
-- Save browser sessions (active tabs)
-- Take screenshot of desktop
-- Get latest Windows ISO and burn on disc. (See Re-Install Windows section below. Use "Create Windows 10 installation media". This can take several hours!).
-- Pre-download necessary drivers (Chocolatey will install the "Dell command update", which is all we need).
-- Keep Windows Enterprise license handy
-- When re-installing windows delete and reformat the OS drive. (Figure this out first by typing "Disk management" at the command line).
-- Make sure to use the same Username to match LACIE backup server.
+Read docs\Checklist_NewInstall.md
 
 ## Install
 
@@ -39,7 +29,8 @@ These notes and scripts were first started around 2014, and have gone through nu
 
     1. Manual: Update BIOS (for new Windows installs)
     1. Boxstarter: **UpdateWindows.txt** (Run this just after installing windows.)
-    1. Manual: Install drivers (for new Windows installs) using Dell Command update
+    	- Double check the file and uncomment line for Dell isntalls
+    1. Manual: Install drivers (for new Windows installs) 
     1. Manual: Run PowerShell Scripts to set correct settings for Win10 (See section below)
     1. Boxstarter: **InstallSoftware.txt**
     1. Manual Installs:
@@ -52,25 +43,33 @@ These notes and scripts were first started around 2014, and have gone through nu
        - [bvckup2](https://bvckup2.com/)
        - [WordWeb](https://wordweb.info) (Pro version)
        - [Greenshot](https://github.com/greenshot/greenshot/releases) (Latest release from Github)
-       - [Obsidian](https://obsidian.md/)
-       - [Zettlr](https://www.zettlr.com/)
        - [AsciiDoctor](https://asciidoctor.org/)
        - [splashtop](https://www.splashtop.com/) (Server and client)
-       - [Ceasium](https://saerasoft.com/caesium/)
-       - Citrix Workspace
-       - [LinqPad](https://www.linqpad.net/)
     1. Boxstarter: **PostInstall.txt**
     1. Manual: Run "Disk Cleaner" from the command line
 
 **NOTE:** Whenever you need a program check [Chocolatey](https://chocolatey.org/packages) first. It is the best place to discover the most used programs by developers for any category.
 
-Also check [FossHub](https://www.fosshub.com/).
-
-Most of the programs are available for free.
+Read the "docs\SoftwareToKeepAnEyeOn.md" document.
 
 Product keys are available from: https://my.visualstudio.com/productkeys
 
 Licenses and settings are available here: https://github.com/Orcomp/Licenses-and-settings (which is private ;-). Check the FolderStructure.md file to re-establish the right folder structure for various programs.
+
+## Manual Install (Paid software)
+
+I generally try and use free or open source software as much as possible. So when I pay for something it has to be worth it.
+
+- [Directory Opus](https://www.gpsoft.com.au/)
+- [bvckup2](https://bvckup2.com/)
+- [Fences](https://www.stardock.com/products/fences/)
+- [WordWeb](https://wordweb.info)
+- [Fork - git](https://git-fork.com/)
+- [Duplicate Cleaner Pro](https://www.duplicatecleaner.com/)
+- [Obsidian](https://obsidian.md/)
+- [GitKraken](https://www.gitkraken.com/git-client) (git client)
+- [dendron](https://www.dendron.so/)
+- [Scapple](https://www.literatureandlatte.com/scapple/overview)
 
 ## Post Install - Configurations
 
@@ -80,6 +79,7 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 - Run Sysinternals Autoruns to manage programs that are allowed to startup on their own.
 - Make sure Drives have the right name. (Run "Disk Management" from the command line. See this [link](https://www.diskpart.com/articles/drive-letter-not-available-8523.html) for help)
 - Install Dropbox and point it to "I:\Dropbox"
+- Install OneDrive and point it to "I:\Files\..."
 
 ### Windows
 
@@ -87,23 +87,28 @@ Licenses and settings are available here: https://github.com/Orcomp/Licenses-and
 - Make sure "Hardware-accelerated GPU scheduling" is turned on in "Display settings > Graphics Settings (bottom of the page) > Hardware-accelerated GPU scheduling = true"
 - Make sure HDD is not indexed and is not allowed to sleep (otherwise it causes windows to freeze every so often). Control Panel > Power Options, choose your preferred plan > Change Advanced power settings > Hard Disk > Turn off hard disk after .... and set it to "never".
 
-#### Scripts
+#### Setup Scripts
 
-- Read this first: https://christitus.com/debloat-windows-10-2020/ (Chris continually keeps this up to date.)
+This looks like the best, active, up to date script to be use: https://github.com/hellzerg/optimizer (Also assess: https://github.com/farag2/Sophia-Script-for-Windows)
 
-- Run PowerShell scripts from C:\Source\Win10-Initial-Setup-Script (https://github.com/Disassembler0/Win10-Initial-Setup-Script), using "My.preset" options. (NOTE: No longer maintained...)
-
-- Other simple GUI tools to consider ([Beware](https://www.mirinsoft.com/blog/19-apps/34-stable-release-of-new-spydish-app-is-out) see comment section):
-  - [SpyDish](https://github.com/builtbybel/spydish)
-  - [BloatBox](https://github.com/builtbybel/bloatbox)
-
-Another scripts:
+Other scripts:
 
 - https://github.com/farag2/Windows-10-Sophia-Script
 - https://github.com/ChrisTitusTech/win10script
+  - https://christitus.com/debloat-windows-10-2020/ (Chris continually keeps this up to date.)
 - https://github.com/Sycnex/Windows10Debloater
 - https://github.com/gordonbay/Windows-On-Reins
-- https://github.com/hellzerg/optimizer
+- https://github.com/Disassembler0/Win10-Initial-Setup-Script No longer active. Cloned the repo and have my own My.preset options.
+
+Notes:
+
+Other simple GUI tools to consider ([Beware](https://www.mirinsoft.com/blog/19-apps/34-stable-release-of-new-spydish-app-is-out) see comment section):
+  - [SpyDish](https://github.com/builtbybel/spydish)
+  - [BloatBox](https://github.com/builtbybel/bloatbox)
+
+#### Task Scheduler
+
+- Setup script to create new workspace on login. (See I:\Scripts)
 
 #### Settings
 
@@ -144,8 +149,16 @@ Chrome (Should be synced to Google account):
   - Session Buddy
   - Octotree
   - Todoist
+  - Todoist for Gmail
   - EasyReader
-  - Polar (PDF reader)
+  - Polar (PDF reader) (https://getpolarized.io/)
+  - Paperpile
+  - DuckDuckGo Privacy Essentials
+  - Github Writer (https://github.com/ckeditor/github-writer)
+
+Vivaldi
+  - Same as Chrome
+  - Vivaldi email
 
 **Keep an eye on:**
 
@@ -171,19 +184,6 @@ Add-MpPreference -ExclusionProcess 'C:\Program Files\Bvckup 2\*', 'C:\Program Fi
 
 Since the OS will be going on a SSD drive no need to partition.
 
-## Paid software
-
-I generally try and use free or open source software as much as possible. So when I pay for something it has to be worth it.
-
-- [Directory Opus](https://www.gpsoft.com.au/)
-- [bvckup2](https://bvckup2.com/)
-- [Fences](https://www.stardock.com/products/fences/)
-- [WordWeb](https://wordweb.info)
-- [Fork - git](https://git-fork.com/)
-- [Duplicate Cleaner Pro](https://www.duplicatecleaner.com/)
-- [Obsidian](https://obsidian.md/)
-- [GitKraken](https://www.gitkraken.com/git-client) (git client)
-
 ## Notes
 
 - Markdown: Use VSCode with some markdown extensions
@@ -206,61 +206,7 @@ The file extension is ".csx".
 - [Guide](https://galdin.dev/blog/csharp-scripts-using-dotnet-script/)
 - [dotnet-script](https://github.com/filipw/dotnet-script)
 
-## Applications that could come in handy
-
-Install from Chocolatey where possible.
-
-- [Duplicati](https://www.duplicati.com/)
-- [czkawka](https://github.com/qarmin/czkawka): Duplicate finder written in Rust
-- [KeeWeb](https://keeweb.info/)
-- [ILSpy](https://github.com/icsharpcode/ILSpy)
-- [Directory Monitor](https://www.deventerprise.com/)
-- [SqliteBrowser](http://sqlitebrowser.org/)
-- [Speccy](https://www.ccleaner.com/speccy)
-- [ImgBurn](http://www.imgburn.com/)
-- [Rosyln pad](https://roslynpad.net/)
-- [Cmder](http://cmder.net/)
-- [HWmonitor](https://www.hwinfo.com): Monitor hardware sensors
-- [One Commander](http://onecommander.com)
-- [gMaster](https://www.gmaster.io) (git manager)
-- [Mind Map](https://github.com/raydac/netbeans-mmd-plugin)
-- [Cmder](http://cmder.net/)
-- [WorkFlowy](https://workflowy.com/)
-- [EaseUS - Backup](https://www.easeus.com/backup-software/tb-free.html)
-- [EaseUS - Partition](https://www.easeus.com/partition-manager/epm-free.html)
-- [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html)
-- [WinSnap](https://www.ntwind.com/software/winsnap.html): Screen capture with annotation
-- [Lepton](https://github.com/hackjutsu/Lepton)
-- [perfview](https://github.com/microsoft/perfview): Performance profiler
-- [Outline](https://www.getoutline.com/)
-- [Julia](https://julialang.org/)
-- [MySQL Workbench](https://www.mysql.com/products/workbench/)
-- [Diagram Designer](http://meesoft.logicnet.dk/DiagramDesigner/)
-- [TPX](https://sourceforge.net/projects/tpx/) (On [Github](https://github.com/krystophny/tpx))
-- [VisiPics](http://www.visipics.info/index.php?title=Main_Page)(Find duplicate pictures)
-  - [PhotoPrism](https://github.com/photoprism/photoprism)
-  - [mylio](https://mylio.com/)
-- [CudaText](http://uvviewsoft.com/cudatext/)
-- [Bulk Crap Uninstaller](https://www.bcuninstaller.com/): https://github.com/Klocman/Bulk-Crap-Uninstaller
-- [ImageGlass](https://imageglass.org): Really nice. Better than IrfanView
-- [Zulip](https://github.com/zulip/zulip): Team chat done right
-
-Check out https://github.com/Awesome-Windows/Awesome
-
-## Backup utilities
-
-The following programs are already installed in InstallExtraSoftware.txt:
-
-- [UltraSearch](https://www.jam-software.com/ultrasearch/)
-- [FreeFileSync](https://freefilesync.org/)
-- [TreeSize free](https://www.jam-software.com/treesize_free)
-
-Install manually:
-
-- [Duplicate Cleaner Pro](https://www.duplicatecleaner.com/)
-
 ## Guides
-
 ### bvckup v2
 
 Probably the fastest way of copying files from one directory to another
@@ -273,110 +219,13 @@ Straight one time copy of files from one folder to another: https://bvckup2.com/
 
 Make sure anti-virus software is disabled
 
-### Re-install Windows XPS 15 9570
-
-A lot easier than I initially thought.
-
-- Download the Windows media creation tool (https://www.microsoft.com/en-au/software-download/windows10), which will help setup a Windows 10 installation image on a USB stick.
-- Plug the USB stick into the laptop. (Do not make any changes to the BIOS or settings)
-- Start up the laptop and hold the F12 button down to access the BIOS settings.
-- Select the USB stick option and continue. (Yes it is that simple...)
-- Go though the installation process. At some stage you will need to repartition the hard drive. Delete all the partitions so that only one line is left and then click "Next". (i.e. do not click on "New").
-- Once Windows 10 is installed you will have to install the drivers.
-- Run the "UpdateWindows.txt" script, which will also install the "Dell Command | Update" application. Use this to install all the drivers, from the Dell support page. After installing drivers reboot the computer.
-
-#### Color Saturation
-
-- Download "Dell Premiercolor" and go through the wizard.
-
-#### Fan issue
-
-- Only use CPU graphics (disable NVIDIA GPU using the "NVIDIA Control panel" application)
-- I wonder whether not installing the NVIDIA driver would fix this permanently in the first place...
-
-**Other solutions:**
-
-Here are other solutions I found online while doing this research. I haven't tried them yet. (Haven't had to...)
-
-- Install "Dell Power Manager" from the windows store: Set to quiet
-- https://www.dell.com/community/XPS/XPS-9370-Fan-Noise/td-p/5803616/page/17
-- https://communities.intel.com/thread/115794
-- https://www.reddit.com/r/Dell/comments/5y3rii/xps_9560_battery_life_optimization_and_fan/
-
-#### DPI issues on external monitor
-
-Visual Studio and other apps not rendering properly.
-
-Short answer: Make the external monitor the primary monitor.
-
-- https://developercommunity.visualstudio.com/content/problem/25097/font-is-blurry-due-to-not-supporting-mixed-mode-dp.html
-- https://www.danantonielli.com/adobe-app-scaling-on-high-dpi-displays-fix/
-
-#### BIOS changes
-
-- System Configuration / SATA Operation = AHCI
-- System Configuration / Keyboard illumination = Dim
-- System Configuration / Touchscreen = off
-- Power Management / Primary battery charge configuration = Primary AC use
-
-#### Black screen flicker issue
-
-- Disable "refresh" in Intel Graphics, under the performance tab
-- https://www.reddit.com/r/Dell/comments/8wy79o/black_screen_flicker_on_dell_xps_15_9570/
-
-#### Other
-
-- Undervolting: https://www.notebookcheck.net/Intel-Extreme-Tuning-Utility-XTU-Undervolting-Guide.272120.0.html
-
-  - Install intel XTU
-  - Cache voltage offset: -160mV
-  - Graphics offset: -35mV
-
-- RAM upgrade: https://www.windowscentral.com/best-dell-xps-15-9570-compatible-ram
-- RAM upgrade "how to" guide: https://www.windowscentral.com/how-add-more-ram-dell-xps-15-9570
-
-https://www.dell.com/community/XPS/LAPTOP-FAN-CONTROL/m-p/6055828#M9486
-https://www.dell.com/community/XPS/Extreme-fan-noise-on-XPS-9570/td-p/6095873
-
-- Find out if we can disable the NVIDIA graphics completely from the BIOS
-
-### Re-install Windows XPS Tower 8930
-
-Follow exactly the same steps as the XPS 9570.
-No need to change anything in the BIOS. Leave Boot security and UEFI on. Insert the USB and reboot. Click F12 and choose to boot from USB.
-
-Install:
-
-- Drivers: https://www.dell.com/support/home/au/en/aubsd1/product-support/product/xps-8930-desktop/drivers
-- SupportAssist
-- Intel Toolbox (includes drivers for Optane 900P) (Installed by Chocolatey)
-- Intel Rapid Storage
-- Samsung Magician (Installed by Chocolatey)
-
-### Other Settings
-
-#### NVME M.2 slot
-
-In order to get the NVME M.2 slot to work we need to use AHCI instead of RAID.
-
-This is easy to do when following these steps:
-
-- Run msconfig
-- Enable Safe Boot (minimal)
-- Reboot into BIOS and change to AHCI
-- Boot into safe mode
-- Run msconfig and disable safe boot
-- Reboot
-
-Then we need to format the new partition in order for Windows to see it in Explorer.
-
-#### NAS Setup (LACIE-2Big)
+### NAS Setup (LACIE-2Big)
 
 Make sure to create a user account on the NAS that has exactly the same username and password as the windows (workstation) login.
 
 Login to the NAS using http:\\lacie-2big-nas
 
-#### Printer Scanner
+### Printer Scanner
 
 Install drivers and toolbox for MF 4350d.
 
@@ -388,12 +237,6 @@ This can be very tricky. After a lot of research follow these steps:
 - Install the drivers and patch then reboot.
 - Then install the Toolbox software. Make changes to the software to always run as admin. Follow the instructions here: https://community.usa.canon.com/t5/Office-Printers/MF-toolbox-can-t-find-scanner/td-p/223042
 
+#### Kyocera: 
+- Install [Kyocera](https://www.kyoceradocumentsolutions.com.au/support-centre/downloads) drivers
 
-Kyocera: 
-- Install Kyocera drivers
-
-### Software Installation Guides
-
-#### Zotero
-
-- https://www.nrel.colostate.edu/set-up-best-reference-manager/

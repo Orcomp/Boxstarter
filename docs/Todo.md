@@ -1,0 +1,1 @@
+[ ] Figure out the best way to clean up C:\Source and copy to thumbdrive

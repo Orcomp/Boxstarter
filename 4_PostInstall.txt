@@ -1,0 +1,33 @@
+# No Reboot
+# http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/Orcomp/Boxstarter/master/4_PostInstall.txt
+
+# Install manually
+#==================
+
+
+# Once VS is installed
+#=====================
+
+cinst poshgit
+
+
+# Others
+#========
+
+
+# Drivers
+#==========
+
+cinst samsung-magician
+cinst intel.ssd.toolbox
+
+# Finalise
+#==========
+
+Disable-UAC
+
+Enable-MicrosoftUpdate
+Install-WindowsUpdate -AcceptEula
+Update-ExecutionPolicy Unrestricted
+
+Enable-UAC
