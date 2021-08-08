@@ -21,8 +21,10 @@
     [ ] IntelliJ communit
         - AsciiDoc
 [ ] Update exclusions for Microsoft Defender
-[ ] Backup Windows Task Scheduler
-[ ] Review the files in "C:\Source\Lisenses and Settings"
+[ ] Backup Task Scheduler
+    - Easy to Export individual tasks
+    - Export to "I:\Scripts\TaskScheduler\"
+[ ] Review the files in "C:\Source\Licenses and Settings"
     - Especially the NuGet configs
     - Update all settings
         - Opus

@@ -15,7 +15,7 @@ cinst ruby # for Asciidoctor
 cinst googlechrome
 cinst firefox
 cinst microsoft-edge
-cinst vivaldi
+# cinst vivaldi # Install manually
 
 # General
 #=========
@@ -70,7 +70,7 @@ cinst ultrasearch
 cinst freefilesync
 cinst teracopy
 cinst 7zip.install
-cinst directoryopus
+# cinst directoryopus # Install manually
 
 # Work
 #===========

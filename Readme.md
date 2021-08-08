@@ -23,28 +23,29 @@ Read docs\Checklist_NewInstall.md
 
 ## Install
 
-- The boxstarter list only contains software I use regularly.
-- The boxstarter links to use in IE (or Edge) are found at the top of each file.
+- The Boxstarter list only contains software I use regularly.
+- The Boxstarter links to use in IE (or Edge) are found at the top of each file.
 - The order in which the files should be run are:
 
     1. Manual: Update BIOS (for new Windows installs)
     1. Boxstarter: **UpdateWindows.txt** (Run this just after installing windows.)
-    	- Double check the file and uncomment line for Dell isntalls
+      - Double check the file and uncomment line for Dell installs
     1. Manual: Install drivers (for new Windows installs) 
     1. Manual: Run PowerShell Scripts to set correct settings for Win10 (See section below)
-    1. Boxstarter: **InstallSoftware.txt**
+    1. Boxstarter: **InstallSoftware.txt** (Run 2 or 3 times until no more errors occur)
     1. Manual Installs:
-       - [Rider](https://www.jetbrains.com/rider/) (Seriously good C# dev IDE. Install from Toolbox)
-         - [DotTrace](https://www.jetbrains.com/profiler/) (Install from Toolbox as well)
-       - [VisualStudio - Preview](https://visualstudio.microsoft.com/vs/preview/) 
-         - NOTE: See VisualStudio_Rider_Setup.md file, to setup Rider and VS
-       - MS Office (Through office365)  
-       - [OneDrive](https://onedrive.live.com/about/en-au/download/)
-       - [bvckup2](https://bvckup2.com/)
-       - [WordWeb](https://wordweb.info) (Pro version)
-       - [Greenshot](https://github.com/greenshot/greenshot/releases) (Latest release from Github)
-       - [AsciiDoctor](https://asciidoctor.org/)
-       - [splashtop](https://www.splashtop.com/) (Server and client)
+      - [Directory Opus](https://www.gpsoft.com.au/)
+      - [Rider](https://www.jetbrains.com/rider/) (Seriously good C# dev IDE. Install from Toolbox)
+        - [DotTrace](https://www.jetbrains.com/profiler/) (Install from Toolbox as well)
+      - [VisualStudio - Preview](https://visualstudio.microsoft.com/vs/preview/) 
+        - NOTE: See VisualStudio_Rider_Setup.md file, to setup Rider and VS
+      - MS Office (Through office365)  
+      - [OneDrive](https://onedrive.live.com/about/en-au/download/)
+      - [bvckup2](https://bvckup2.com/)
+      - [WordWeb](https://wordweb.info) (Pro version)
+      - [Greenshot](https://github.com/greenshot/greenshot/releases) (Latest release from Github)
+      - [AsciiDoctor](https://asciidoctor.org/)
+      - [splashtop](https://www.splashtop.com/) (Server and client)
     1. Boxstarter: **PostInstall.txt**
     1. Manual: Run "Disk Cleaner" from the command line
 
@@ -55,8 +56,7 @@ Read the "docs\SoftwareToKeepAnEyeOn.md" document.
 Product keys are available from: https://my.visualstudio.com/productkeys
 
 Licenses and settings are available here: https://github.com/Orcomp/Licenses-and-settings (which is private ;-). Check the FolderStructure.md file to re-establish the right folder structure for various programs.
-
-## Manual Install (Paid software)
+### Paid Software
 
 I generally try and use free or open source software as much as possible. So when I pay for something it has to be worth it.
 
@@ -177,7 +177,7 @@ Run as admin (Copy and paste into PowerShell)
 ```
 Add-MpPreference -ExclusionPath 'C:\Source', 'C:\Users\Ben\.nuget', 'C:\Users\Ben\AppData\Roaming\WildGums', 'I:\', 'K:\'
 
-Add-MpPreference -ExclusionProcess 'C:\Program Files\Bvckup 2\*', 'C:\Program Files (x86)\Microsoft Visual Studio\*', 'C:\Program Files (x86)\Splashtop\*', 'C:\Program Files\FreeFileSync\Bin\*', 'C:\Program Files\GPSoftware\Directory Opus\*', 'C:\Software\Infosoft\Bodhi6\*', 'C:\Program Files (x86)\Duplicate Cleaner Pro\*', 'C:\Program Files\Microsoft VS Code\*', 'C:\Users\Ben\AppData\Local\Fork\*'
+Add-MpPreference -ExclusionProcess 'C:\Program Files\Bvckup 2\*', 'C:\Program Files (x86)\Microsoft Visual Studio\*', 'C:\Program Files (x86)\Splashtop\*', 'C:\Program Files\FreeFileSync\Bin\*', 'C:\Program Files\GPSoftware\Directory Opus\*', 'C:\Program Files (x86)\Duplicate Cleaner Pro\*', 'C:\Program Files\Microsoft VS Code\*', 'C:\Users\Ben\AppData\Local\Fork\*'
 ```
 
 ### Partitions

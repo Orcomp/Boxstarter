@@ -12,6 +12,10 @@ Objective should be to get dev environnement up and running as quickly as possib
 
 [ ] Take screenshot of desktop
 [ ] Clean up and archive old projects in C:\Source
+    [ ] First clean repositories with https://github.com/CatenaLogic/RepositoryCleaner.
+    [ ] It is best to use Chocolatey: choco install repositorycleaner
+    [ ] Delete .vs folders by hand
+    [ ] Zip the whole C:\Source folder before copying it over (It is 20x faster, to zip first)
 [ ] Get latest Windows ISO and copy to Ventoy
 [ ] Pre-download necessary drivers (Chocolatey will install the "Dell command update", which is all we need for Dell installs).
 [ ] Keep Windows Enterprise license handy
