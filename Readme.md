@@ -70,12 +70,14 @@ I generally try and use free or open source software as much as possible. So whe
 - [GitKraken](https://www.gitkraken.com/git-client) (git client)
 - [dendron](https://www.dendron.so/)
 - [Scapple](https://www.literatureandlatte.com/scapple/overview)
+- [ClipboardFusion](https://www.clipboardfusion.com/)
 
 ## Post Install - Configurations
 
 - Files and Folder:
   - [Folder Organisation](http://www.howtogeek.com/howto/15677/zen-and-the-art-of-file-and-folder-organization/)
 - Set another text editor as default (instead of notepad): https://www.winhelponline.com/blog/replace-notepad-text-editor-notepad-plus-association
+  - Run [Notepad Replacer](https://www.binaryfortress.com/NotepadReplacer/) (already installed by Chocolatey)
 - Run Sysinternals Autoruns to manage programs that are allowed to startup on their own.
 - Make sure Drives have the right name. (Run "Disk Management" from the command line. See this [link](https://www.diskpart.com/articles/drive-letter-not-available-8523.html) for help)
 - Install Dropbox and point it to "I:\Dropbox"
@@ -89,11 +91,11 @@ I generally try and use free or open source software as much as possible. So whe
 
 #### Setup Scripts
 
-This looks like the best, active, up to date script to be use: https://github.com/hellzerg/optimizer (Also assess: https://github.com/farag2/Sophia-Script-for-Windows)
+This looks like the best, active, up to date script to be use: https://github.com/farag2/Sophia-Script-for-Windows (Also assess: https://github.com/hellzerg/optimizer)
+(Watch the YouTube videos to refresh memory.)
 
 Other scripts:
 
-- https://github.com/farag2/Windows-10-Sophia-Script
 - https://github.com/ChrisTitusTech/win10script
   - https://christitus.com/debloat-windows-10-2020/ (Chris continually keeps this up to date.)
 - https://github.com/Sycnex/Windows10Debloater

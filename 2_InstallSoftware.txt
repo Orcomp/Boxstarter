@@ -61,6 +61,8 @@ cinst eartrumpet
 cinst powertoys
 cinst mousewithoutborders
 cinst ventoy
+cinst notepadreplacer
+cisnt clipboardfusion
 
 # File Utilities
 #===========
