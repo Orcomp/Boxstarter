@@ -19,6 +19,17 @@ Then delete duplicate files and structure things on all older devices (one at a 
 - Turn off Windows Defender when moving large amounts of files (Turn off internet access first)
 - Zip, archive database files (DATA folder)
 
+## Settings to save
+
+- ClipboardFusion
+- bvckup v2
+- Directory Opus
+- Chrome
+- VS
+- VScode
+- Rider
+- IntelliJ
+
 ## Folders that can safely be deleted (on inactive drives)
 
 ### General

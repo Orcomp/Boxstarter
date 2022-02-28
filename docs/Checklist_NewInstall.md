@@ -10,7 +10,9 @@ Objective should be to get dev environnement up and running as quickly as possib
 [ ] Read and follow Checklist_UpdateInstructions.md
 [ ] Read and follow instructions Checklist_BackupInstructions.md
 
+[ ] Install VPN
 [ ] Take screenshot of desktop
+[ ] Take screenshot of tray icons
 [ ] Clean up and archive old projects in C:\Source
     [ ] First clean repositories with https://github.com/CatenaLogic/RepositoryCleaner.
     [ ] It is best to use Chocolatey: choco install repositorycleaner
