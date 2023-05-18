@@ -29,23 +29,23 @@ Read docs\Checklist_NewInstall.md
 
     1. Manual: Update BIOS (for new Windows installs)
     1. Boxstarter: **UpdateWindows.txt** (Run this just after installing windows.)
-      - Double check the file and uncomment line for Dell installs
+       - Double check the file and uncomment line for Dell installs
     1. Manual: Install drivers (for new Windows installs) 
     1. Manual: Run PowerShell Scripts to set correct settings for Win10 (See section below)
     1. Boxstarter: **InstallSoftware.txt** (Run 2 or 3 times until no more errors occur)
     1. Manual Installs:
-      - [Directory Opus](https://www.gpsoft.com.au/)
-      - [Rider](https://www.jetbrains.com/rider/) (Seriously good C# dev IDE. Install from Toolbox)
-        - [DotTrace](https://www.jetbrains.com/profiler/) (Install from Toolbox as well)
-      - [VisualStudio - Preview](https://visualstudio.microsoft.com/vs/preview/) 
-        - NOTE: See VisualStudio_Rider_Setup.md file, to setup Rider and VS
-      - MS Office (Through office365)  
-      - [OneDrive](https://onedrive.live.com/about/en-au/download/)
-      - [bvckup2](https://bvckup2.com/)
-      - [WordWeb](https://wordweb.info) (Pro version)
-      - [Greenshot](https://github.com/greenshot/greenshot/releases) (Latest release from Github)
-      - [AsciiDoctor](https://asciidoctor.org/)
-      - [splashtop](https://www.splashtop.com/) (Server and client)
+        - [Directory Opus](https://www.gpsoft.com.au/)
+        - [Rider](https://www.jetbrains.com/rider/) (Seriously good C# dev IDE. Install from Toolbox)
+          - [DotTrace](https://www.jetbrains.com/profiler/) (Install from Toolbox as well)
+        - [VisualStudio - Preview](https://visualstudio.microsoft.com/vs/preview/) 
+          - NOTE: See VisualStudio_Rider_Setup.md file, to setup Rider and VS
+        - MS Office (Through office365)  
+        - [OneDrive](https://onedrive.live.com/about/en-au/download/)
+        - [bvckup2](https://bvckup2.com/)
+        - [WordWeb](https://wordweb.info) (Pro version)
+        - [Greenshot](https://github.com/greenshot/greenshot/releases) (Latest release from Github)
+        - [AsciiDoctor](https://asciidoctor.org/)
+        - [splashtop](https://www.splashtop.com/) (Server and client)
     1. Boxstarter: **PostInstall.txt**
     1. Manual: Run "Disk Cleaner" from the command line
 
